@@ -1,182 +1,134 @@
-# Junior AI Study
+# Junior AI Study 🎓
 
-一个基于 FastAPI + LangGraph 的学习助手项目，前后端分离。
+Junior AI Study（青少年 AI 学习助手）是一个旨在为青少年提供沉浸式、交互式个性化学习体验的全栈开源项目。项目集成了先进的大语言模型（LLM）能力，并通过创新的**流式语音合成**、**技能挂载驱动**以及**现代化的响应式 UI 设计**，打造了一个“懂教学、能发声、会总结”的数字 AI 教师。
 
-## 目录结构
+## ✨ 核心特性
 
-- `backend/`：FastAPI 后端
-- `frontend/`：Vue 3 + Vite 前端
+- **🧠 技能驱动学习 (Skill-Based Learning)**
 
-## Linux 环境要求
+  - 系统基于外部的 `yaml` 和 `Markdown` 文件定义不同的“学习技能”（如：中考英语阅读、文言文鉴赏等）。
+  - 用户可以自主选择学习技能，AI 教师会自动加载对应的人设、约束和评估标准进行定向辅导。
+  - 支持技能详情的富文本浮窗预览。
+- **💬 极致流畅的对话体验**
 
-- Python 3.10+
-- Node.js 18+
-- `npm`
-- `pm2`（可选，但推荐用于后台托管）
+  - **Server-Sent Events (SSE)**：支持 LLM 的毫秒级流式文本输出，无需漫长等待。
+  - **智能缓存恢复**：对话状态自动同步至 `sessionStorage` 和 `localStorage`，刷新页面不丢失任何对话进度。
+  - **Markdown 原生渲染**：对话内容完美支持代码块、表格、加粗等 Markdown 格式实时渲染。
+- **🔊 实时流式语音播报 (Streaming TTS)**
 
-## 后端配置
+  - 接入微软 `Edge-TTS` 神经网络语音，支持自然逼真的人声朗读。
+  - **首创边写边读架构**：前端搭载定制的 `AudioQueuePlayer` (Web Audio API)，通过精准的标点符号（`。！？\n`）进行句读切分，AI 生成这句话的同时立刻合成并播放音频，告别传统的“等全段写完再读”的延迟感。
+  - **硬件级播放控制**：提供独立的悬浮播控徽章，支持中途随时**暂停、继续与打断重开**，彻底解决多音频重叠（混音）问题。
+- **📂 学习资料自动沉淀**
 
-后端通过 `backend/.env` 读取环境变量。常用配置如下：
+  - 聊天结束后，系统可根据对话内容自动提炼并生成持久化的 Markdown 格式学习档案（存入本地 `generated/` 目录），方便复习。
+- **💅 现代化 UI 体验 (Modern UI/UX)**
 
-```env
-APP_NAME=Junior AI Study
-OPENAI_API_KEY=你的密钥
-OPENAI_BASE_URL=https://api.deepseek.com
-OPENAI_MODEL=deepseek-chat
-SQLITE_DB_PATH=data/app.db
-GENERATED_DIR=generated
-```
+  - 基于 CSS 网格与弹性盒的响应式布局，完美适配桌面与移动端屏幕。
+  - 运用毛玻璃（Glassmorphism）、微渐变与 Lucide 图标集，提供堪比一流商业软件的视觉与交互反馈。
 
-说明：
+## 🛠️ 技术栈
 
-- `OPENAI_API_KEY` 不配置时，项目会走本地 fallback 回复
-- SQLite 默认数据库路径是 `backend/data/app.db`
-- 运行时会自动创建所需表结构
+### 后端 (Backend)
 
-## 本地启动
+- **框架**：[FastAPI](https://fastapi.tiangolo.com/) (Python 3.10+)
+- **AI 编排**：LangChain, LangGraph
+- **大模型通信**：`langchain_openai` (兼容 DeepSeek/OpenAI 格式接口)
+- **语音引擎**：`edge-tts` (异步高性能文字转语音)
+- **架构设计**：采用 Service 层单例模式，Lifespan 现代启动生命周期管理，严格的 Pydantic 数据验证。
 
-### 1. 启动后端
+### 前端 (Frontend)
+
+- **框架**：[Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) + TypeScript
+- **路由**：`vue-router` (单页路由，支持 `/`, `/history`, `/twin`)
+- **状态管理**：原生 `provide/inject` 模式与 Web Storage API，轻量高效。
+- **音频调度**：Web Audio API 自定义音频流调度引擎 (`AudioQueuePlayer`)。
+
+## 🚀 快速启动
+
+### 1. 后端环境配置
 
 ```bash
 cd backend
-python3 -m venv .venv
-source .venv/bin/activate
+
+# 安装 Python 依赖
 pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# 配置环境变量 (根目录创建 .env 文件)
+# 请在 .env 中填入以下内容：
+# OPENAI_API_KEY=your_api_key_here
+# OPENAI_API_BASE=https://api.deepseek.com/v1 (或者其他兼容接口)
+
+# 启动 FastAPI 服务 (默认运行在 http://localhost:8000)
+python main.py
 ```
 
-启动后可以访问：
-
-- `GET http://127.0.0.1:8000/api/health`
-
-### 2. 启动前端
+### 2. 前端环境配置
 
 ```bash
 cd frontend
+
+# 安装 Node.js 依赖 (推荐使用 Node 18+)
 npm install
+
+# 启动 Vite 本地开发服务器
 npm run dev
 ```
 
-Vite 默认会启动在 `http://127.0.0.1:5173`。
+打开浏览器访问 `http://localhost:5173` 即可开始体验。
 
-前端开发环境下会把 `/api` 代理到后端 `http://127.0.0.1:8000`。
+## 📁 目录结构
 
-## PM2 启动
+```text
+junior-ai-study/
+├── backend/                  # FastAPI 后端目录
+│   ├── app/
+│   │   ├── api/routes.py     # 核心路由 (聊天、文件、TTS、技能获取)
+│   │   ├── services/         # 业务逻辑层 (LlmService, SkillService, TtsService)
+│   │   └── schemas.py        # Pydantic 结构体
+│   ├── skills/               # YAML 格式的 AI 技能定义文件夹
+│   └── main.py               # 后端应用入口
+│
+└── frontend/                 # Vue 3 前端目录
+    ├── src/
+    │   ├── api.ts            # 后端通信接口封装
+    │   ├── App.vue           # 全局状态管理与页面骨架
+    │   ├── router.ts         # 前端路由配置
+    │   ├── style.css         # 全局样式系统与 CSS 变量
+    │   ├── utils/
+    │   │   └── audioQueue.ts # 流式音频播放引擎
+    │   ├── views/            # 路由视图 (AI老师、历史、数字孪生)
+    │   └── components/       # 可复用组件 (Markdown渲染器等)
+    └── package.json
+```
 
-### 1. 安装 PM2
+## ⚠️ 注意事项与已知限制
+
+- **TTS 网络请求**：Edge-TTS 依赖微软接口，如果在特定网络环境下遇到 404 或超时问题，请检查网络连通性。
+- **本地缓存上限**：由于对话历史依赖浏览器的 `localStorage`，历史记录存储条数受限于浏览器的 5MB 配额（当前代码已做 `slice(0, 50)` 截断保护机制）。
+## Linux 脚本启动与停止
+
+仓库根目录已经新增两个脚本：
+
+- [start_pm2.sh](/e:/my_project/git代码/junior-ai-study/start_pm2.sh)：启动前后端并显示 `pm2 status`
+- [stop_pm2.sh](/e:/my_project/git代码/junior-ai-study/stop_pm2.sh)：停止并删除前后端 PM2 进程
+
+### 使用方式
+
+先赋予执行权限：
 
 ```bash
-npm i -g pm2
+chmod +x start_pm2.sh stop_pm2.sh
 ```
 
-### 2. 启动后端
-
-先确保后端虚拟环境已经创建并安装过依赖：
+启动前后端：
 
 ```bash
-cd backend
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-deactivate
+./start_pm2.sh
 ```
 
-然后用 PM2 托管：
+停止并删除前后端：
 
 ```bash
-cd /path/to/junior-ai-study
-pm2 start backend/.venv/bin/python --name junior-backend --cwd backend --interpreter none -- -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+./stop_pm2.sh
 ```
-
-### 3. 启动前端
-
-#### 开发模式
-
-```bash
-cd /path/to/junior-ai-study
-pm2 start npm --name junior-frontend --cwd frontend -- run dev
-```
-
-#### 生产模式
-
-先构建前端：
-
-```bash
-cd frontend
-npm install
-npm run build
-```
-
-然后用 PM2 提供静态文件服务：
-
-```bash
-cd /path/to/junior-ai-study
-pm2 serve frontend/dist 5173 --spa --name junior-frontend
-```
-
-> 生产环境更推荐使用 Nginx 直接托管 `frontend/dist`，再把 `/api` 反向代理到后端 `8000` 端口。
-
-## PM2 常用命令
-
-```bash
-pm2 status
-pm2 logs junior-backend
-pm2 logs junior-frontend
-pm2 restart junior-backend
-pm2 restart junior-frontend
-pm2 stop junior-backend
-pm2 stop junior-frontend
-pm2 save
-pm2 startup
-```
-
-## 前端自动转发到后端
-
-如果你希望“前端页面访问后自动把 `/api` 转发到后端 8000”，生产环境不要只用 `pm2 serve`，而是要加一层反向代理，比如 Nginx。
-
-### 推荐方式
-
-1. 前端代码里请求相对路径 `/api`，当前项目已经这样处理了。
-2. 后端继续监听 `127.0.0.1:8000` 或 `0.0.0.0:8000`。
-3. Nginx 对外提供 `80/443`，把 `/api` 转发到 `8000`，把前端静态文件直接返回。
-
-### 示例 Nginx 配置
-
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-
-    root /path/to/junior-ai-study/frontend/dist;
-    index index.html;
-
-    location /api/ {
-        proxy_pass http://127.0.0.1:8000;
-        proxy_http_version 1.1;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-}
-```
-
-### 这样访问时的链路
-
-- 浏览器访问 `http://your-domain.com`
-- 前端静态文件由 Nginx 返回
-- 前端里的 `/api/...` 由 Nginx 转发到 `http://127.0.0.1:8000/api/...`
-
-## 常见访问地址
-
-- 前端开发模式：`http://127.0.0.1:5173`
-- 后端接口：`http://127.0.0.1:8000`
-
-## 说明
-
-- 如果你使用域名和 HTTPS，建议让 Nginx 统一对外提供 80/443 服务
-- 如果前后端不在同一台机器，需要手动调整前端的 API 地址配置
