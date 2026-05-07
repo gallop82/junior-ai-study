@@ -15,6 +15,13 @@ class SkillService:
             for path in self._skill_paths()
         ]
 
+    def get(self, skill_id: str) -> Skill | None:
+        for path in self._skill_paths():
+            skill = self._load_skill(path)
+            if skill.id == skill_id:
+                return skill
+        return None
+
     def get_many(self, skill_ids: list[str]) -> list[Skill]:
         by_id = {skill.id: skill for skill in (self._load_skill(path) for path in self._skill_paths())}
         return [by_id[skill_id] for skill_id in skill_ids if skill_id in by_id]
