@@ -4,9 +4,7 @@ set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 BACKEND_NAME="junior-backend"
-FRONTEND_NAME="junior-frontend"
-BACKEND_PORT="8000"
-FRONTEND_PORT="8801"
+BACKEND_PORT="8001"
 
 cd "$PROJECT_ROOT"
 
@@ -25,14 +23,12 @@ if [ ! -d "frontend/dist" ]; then
   exit 1
 fi
 
-pm2 delete "$BACKEND_NAME" "$FRONTEND_NAME" >/dev/null 2>&1 || true
+pm2 delete "$BACKEND_NAME" >/dev/null 2>&1 || true
 
 pm2 start backend/.venv/bin/python \
   --name "$BACKEND_NAME" \
   --cwd backend \
   --interpreter none \
   -- -m uvicorn app.main:app --host 0.0.0.0 --port "$BACKEND_PORT"
-
-pm2 serve frontend/dist "$FRONTEND_PORT" --spa --name "$FRONTEND_NAME"
 
 pm2 status
