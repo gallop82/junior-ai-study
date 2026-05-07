@@ -1,0 +1,4 @@
+interface:
+  display_name: "初中历史学习"
+  short_description: "定位单元、梳理逻辑、输出浅显易懂的历史学习讲义"
+  default_prompt: "用 $junior-history-study 定位相关单元，并输出一份浅显易懂、逻辑清晰的初中历史学习讲义，包含主线、关键词、图表/思维导图、易错点和简短自测。"

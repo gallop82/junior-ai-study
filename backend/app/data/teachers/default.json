@@ -1,0 +1,7 @@
+{
+  "id": "default_teacher",
+  "name": "默认老师",
+  "description": "公众号内容待接入，当前使用通用问答能力。",
+  "wechat_account_id": null
+}
+

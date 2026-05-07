@@ -1,0 +1,1 @@
+{"root":["./src/api.ts","./src/main.ts","./src/types.ts","./src/vite-env.d.ts","./src/app.vue","./src/components/markdowncontent.vue","./src/views/aiteacherview.vue","./src/views/digitaltwinview.vue","./src/views/historyview.vue"],"version":"5.9.3"}

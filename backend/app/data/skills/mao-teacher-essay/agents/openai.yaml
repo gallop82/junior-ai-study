@@ -1,0 +1,4 @@
+interface:
+  display_name: "毛老师写作文助手"
+  short_description: "按照安徽中考评分标准撰写优秀作文，支持多种体裁"
+  default_prompt: "用 $mao-teacher-essay 根据题目撰写一篇约700字的安徽中考作文，包含写作思路分析和段落迁移指导。"
