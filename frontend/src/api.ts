@@ -35,6 +35,19 @@ export function fetchSkillContent(skillId: string): Promise<Skill> {
   return requestJson<Skill>(`/api/skills/${encodeURIComponent(skillId)}`)
 }
 
+export async function fetchTtsArrayBuffer(text: string): Promise<ArrayBuffer> {
+  const response = await fetch(apiUrl('/api/tts'), {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text })
+  })
+  if (!response.ok) {
+    const msg = await response.text()
+    throw new Error(msg || 'TTS Error')
+  }
+  return response.arrayBuffer()
+}
+
 export async function streamChat(
   payload: {
     question: string

@@ -3,12 +3,13 @@ import json
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
 
-from app.schemas import ChatRequest, GeneratedFile, Skill, SkillSummary, Teacher
+from app.schemas import ChatRequest, GeneratedFile, Skill, SkillSummary, Teacher, TtsRequest
 from app.services.article_retriever import ArticleRetriever
 from app.services.file_service import FileService
 from app.services.llm_service import LlmService
 from app.services.skill_service import SkillService
 from app.services.teacher_service import TeacherService
+from app.services.tts_service import TtsService
 
 router = APIRouter(prefix="/api")
 
@@ -118,3 +119,13 @@ def get_generated_file(file_id: str):
     return FileResponse(
         path, media_type="text/markdown; charset=utf-8", filename=path.name
     )
+
+
+@router.post("/tts")
+async def text_to_speech(payload: TtsRequest):
+    tts = TtsService()
+    try:
+        audio_path = await tts.generate(payload.text)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    return FileResponse(audio_path, media_type="audio/mpeg", filename="speech.mp3")

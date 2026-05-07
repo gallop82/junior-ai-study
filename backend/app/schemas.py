@@ -58,3 +58,7 @@ class ChatResponse(BaseModel):
     used_skills: list[SkillSummary]
     articles: list[WechatArticle] = Field(default_factory=list)
     files: list[GeneratedFile] = Field(default_factory=list)
+
+
+class TtsRequest(BaseModel):
+    text: str = Field(..., max_length=5000)

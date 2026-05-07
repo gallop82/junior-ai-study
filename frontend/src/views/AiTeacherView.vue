@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, inject, nextTick, ref, type Ref } from 'vue'
-import { ArrowLeft, BookOpen, LoaderCircle, Send, Sparkles } from 'lucide-vue-next'
+import { computed, inject, nextTick, onMounted, ref, watch, type Ref } from 'vue'
+import { ArrowLeft, BookOpen, LoaderCircle, Pause, Play, Send, Sparkles, Square, Volume2 } from 'lucide-vue-next'
 import { fetchSkillContent, streamChat } from '../api'
+import { AudioQueuePlayer } from '../utils/audioQueue'
 import MarkdownContent from '../components/MarkdownContent.vue'
 import type { ChatMessage, ConversationRecord, Skill, SkillSummary, Teacher } from '../types'
 
@@ -22,11 +23,46 @@ const error = ref('')
 const messages = ref<UiMessage[]>([])
 const messageListRef = ref<HTMLElement | null>(null)
 
+/* tts streaming state */
+const activeTtsIndex = ref<number | null>(null)
+const ttsState = ref<'playing' | 'paused' | 'stopped'>('stopped')
+const ttsBuffer = ref('')
+let ttsPlayer: AudioQueuePlayer | null = null
+
 /* skill preview */
 const previewSkill = ref<Skill | null>(null)
 const previewLoading = ref(false)
 
 const selectedTeacher = computed(() => teachers.value[0])
+
+const SESSION_KEY = 'junior-ai-active-session'
+
+onMounted(() => {
+  const saved = sessionStorage.getItem(SESSION_KEY)
+  if (saved) {
+    try {
+      const data = JSON.parse(saved)
+      if (data.skill && data.messages) {
+        selectedSkill.value = data.skill
+        messages.value = data.messages
+        nextTick(scrollToBottom)
+      }
+    } catch (e) {
+      console.error('Failed to restore session:', e)
+    }
+  }
+})
+
+watch([selectedSkill, messages], ([newSkill, newMessages]) => {
+  if (newSkill) {
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+      skill: newSkill,
+      messages: newMessages.map(m => ({ ...m, isStreaming: false }))
+    }))
+  } else {
+    sessionStorage.removeItem(SESSION_KEY)
+  }
+}, { deep: true })
 
 function chooseSkill(skill: SkillSummary) {
   selectedSkill.value = skill
@@ -56,11 +92,19 @@ function closePreview() {
 
 function backToSkills() {
   if (loading.value) return
+  
+  if (ttsPlayer) {
+    ttsPlayer.stop()
+    ttsPlayer = null
+    activeTtsIndex.value = null
+  }
+  
   selectedSkill.value = null
   question.value = ''
   messages.value = []
   error.value = ''
   connected.value = false
+  sessionStorage.removeItem(SESSION_KEY)
 }
 
 async function scrollToBottom() {
@@ -113,9 +157,30 @@ async function submitQuestion() {
         onChunk: async (content) => {
           messages.value[assistantMessageIndex].content += content
           await scrollToBottom()
+          
+          if (activeTtsIndex.value === assistantMessageIndex) {
+            ttsBuffer.value += content
+            const match = ttsBuffer.value.match(/^(.*?[。！？.!?\n]+)(.*)$/s)
+            if (match) {
+               const chunks = match[1].match(/[^。！？.!?\n]+[。！？.!?\n]*/g) || []
+               chunks.forEach(c => ttsPlayer?.enqueue(c))
+               ttsBuffer.value = match[2]
+            }
+          }
           await new Promise((resolve) => requestAnimationFrame(resolve))
         },
         onDone: (response) => {
+          messages.value[assistantMessageIndex].isStreaming = false
+          messages.value[assistantMessageIndex].content = response.answer
+          
+          if (activeTtsIndex.value === assistantMessageIndex) {
+            if (ttsBuffer.value.trim()) {
+              ttsPlayer?.enqueue(ttsBuffer.value)
+              ttsBuffer.value = ''
+            }
+            ttsPlayer?.finish()
+          }
+          
           finalAnswer = response.answer
           createdFileCount = response.files.length
           teacherName = response.teacher.name
@@ -146,6 +211,49 @@ async function submitQuestion() {
     loading.value = false
     connected.value = false
   }
+}
+
+function startTts(index: number, message: UiMessage) {
+  if (ttsPlayer) {
+    ttsPlayer.stop()
+  }
+
+  activeTtsIndex.value = index
+  ttsState.value = 'playing'
+  ttsBuffer.value = ''
+
+  ttsPlayer = new AudioQueuePlayer((state) => {
+    ttsState.value = state
+    if (state === 'stopped' && activeTtsIndex.value === index) {
+      activeTtsIndex.value = null
+    }
+  })
+
+  const text = message.content || ''
+  if (!message.isStreaming) {
+    const chunks = text.match(/[^。！？.!?\n]+[。！？.!?\n]*/g) || [text]
+    chunks.forEach(c => ttsPlayer!.enqueue(c))
+    ttsPlayer!.finish()
+  } else {
+    const match = text.match(/^(.*?[。！？.!?\n]+)(.*)$/s)
+    if (match) {
+      const chunks = match[1].match(/[^。！？.!?\n]+[。！？.!?\n]*/g) || []
+      chunks.forEach(c => ttsPlayer!.enqueue(c))
+      ttsBuffer.value = match[2]
+    } else {
+      ttsBuffer.value = text
+    }
+  }
+}
+
+function togglePauseTts() {
+  if (ttsState.value === 'playing') ttsPlayer?.pause()
+  else if (ttsState.value === 'paused') ttsPlayer?.resume()
+}
+
+function stopTts() {
+  ttsPlayer?.stop()
+  activeTtsIndex.value = null
 }
 </script>
 
@@ -195,6 +303,23 @@ async function submitQuestion() {
           <MarkdownContent v-if="message.content" :content="message.content" />
           <p v-else class="typing-placeholder">正在生成...</p>
           <i v-if="message.isStreaming" class="stream-cursor" aria-hidden="true"></i>
+
+          <div v-if="message.role === 'assistant' && message.content" class="tts-controls">
+            <template v-if="activeTtsIndex === index">
+              <button class="tts-button" type="button" @click="togglePauseTts" :title="ttsState === 'paused' ? '继续朗读' : '暂停朗读'">
+                <Play v-if="ttsState === 'paused'" :size="14" />
+                <Pause v-else :size="14" />
+              </button>
+              <button class="tts-button" type="button" @click="stopTts" title="停止朗读">
+                <Square :size="14" />
+              </button>
+            </template>
+            <template v-else>
+              <button class="tts-button" type="button" @click="startTts(index, message)" title="朗读">
+                <Volume2 :size="14" />
+              </button>
+            </template>
+          </div>
         </article>
         <article v-if="loading" class="stream-status">
           <LoaderCircle class="spin" :size="16" />

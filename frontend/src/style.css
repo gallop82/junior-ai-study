@@ -340,6 +340,39 @@ h2 {
   line-height: 1.78;
 }
 
+.tts-controls {
+  position: absolute;
+  top: -16px;
+  right: 16px;
+  display: flex;
+  gap: 4px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 0 4px 12px rgba(49, 82, 130, 0.08);
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.tts-button {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.tts-button:hover {
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+
 .typing-placeholder {
   color: var(--muted);
 }
