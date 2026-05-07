@@ -3,10 +3,7 @@ import type { ChatMessage, ChatResponse, GeneratedFile, SkillSummary, Teacher } 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? defaultApiBaseUrl()
 
 function defaultApiBaseUrl(): string {
-  const protocol = window.location.protocol
-  const hostname = window.location.hostname || '127.0.0.1'
-  const backendHost = hostname === 'localhost' ? '127.0.0.1' : hostname
-  return `${protocol}//${backendHost}:8000`
+  return ''
 }
 
 function apiUrl(path: string): string {

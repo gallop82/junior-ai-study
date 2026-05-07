@@ -35,4 +35,3 @@ POST /api/chat
 GET  /api/generated-files
 GET  /api/generated-files/{file_id}
 ```
-
