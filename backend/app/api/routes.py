@@ -3,7 +3,7 @@ import json
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
 
-from app.schemas import ChatRequest, GeneratedFile, SkillSummary, Teacher
+from app.schemas import ChatRequest, GeneratedFile, Skill, SkillSummary, Teacher
 from app.services.article_retriever import ArticleRetriever
 from app.services.file_service import FileService
 from app.services.llm_service import LlmService
@@ -21,6 +21,14 @@ def health() -> dict[str, str]:
 @router.get("/skills", response_model=list[SkillSummary])
 def list_skills() -> list[SkillSummary]:
     return SkillService().list_skills()
+
+
+@router.get("/skills/{skill_id}", response_model=Skill)
+def get_skill(skill_id: str) -> Skill:
+    skill = SkillService().get(skill_id)
+    if skill is None:
+        raise HTTPException(status_code=404, detail="Skill not found.")
+    return skill
 
 
 @router.get("/teachers", response_model=list[Teacher])

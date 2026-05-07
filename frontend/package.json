@@ -13,7 +13,8 @@
     "lucide-vue-next": "^0.468.0",
     "markdown-it": "^14.1.0",
     "md-editor-v3": "^6.5.0",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",

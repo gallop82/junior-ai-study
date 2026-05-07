@@ -5,6 +5,10 @@ export interface SkillSummary {
   description: string
 }
 
+export interface Skill extends SkillSummary {
+  content: string
+}
+
 export interface Teacher {
   id: string
   name: string

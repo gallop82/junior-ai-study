@@ -1,15 +1,13 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, provide, ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { Bot, BrainCircuit, Clock3, GraduationCap, Menu, X } from 'lucide-vue-next'
 import { fetchGeneratedFiles, fetchSkills, fetchTeachers } from './api'
-import AiTeacherView from './views/AiTeacherView.vue'
-import DigitalTwinView from './views/DigitalTwinView.vue'
-import HistoryView from './views/HistoryView.vue'
 import type { ConversationRecord, GeneratedFile, SkillSummary, Teacher } from './types'
 
-type ActivePage = 'ai' | 'history' | 'twin'
+const route = useRoute()
+const router = useRouter()
 
-const activePage = ref<ActivePage>('ai')
 const mobileMenuOpen = ref(false)
 const skills = ref<SkillSummary[]>([])
 const teachers = ref<Teacher[]>([])
@@ -19,15 +17,15 @@ const loading = ref(true)
 const error = ref('')
 
 const navItems = [
-  { key: 'ai' as const, label: 'AI老师', icon: Bot },
-  { key: 'history' as const, label: '历史对话', icon: Clock3 },
-  { key: 'twin' as const, label: '数字孪生', icon: BrainCircuit }
+  { key: 'ai', path: '/', label: 'AI老师', icon: Bot },
+  { key: 'history', path: '/history', label: '历史对话', icon: Clock3 },
+  { key: 'twin', path: '/twin', label: '数字孪生', icon: BrainCircuit }
 ]
 
-const activeTitle = computed(() => navItems.find((item) => item.key === activePage.value)?.label ?? 'AI老师')
+const activeTitle = computed(() => navItems.find((item) => item.path === route.path)?.label ?? 'AI老师')
 
-function setActivePage(page: ActivePage) {
-  activePage.value = page
+function navigate(path: string) {
+  router.push(path)
   mobileMenuOpen.value = false
 }
 
@@ -49,6 +47,15 @@ function deleteHistory(recordId: string) {
 async function refreshFiles() {
   files.value = await fetchGeneratedFiles()
 }
+
+provide('skills', skills)
+provide('teachers', teachers)
+provide('files', files)
+provide('history', history)
+provide('addHistory', addHistory)
+provide('clearHistory', clearHistory)
+provide('deleteHistory', deleteHistory)
+provide('refreshFiles', refreshFiles)
 
 async function loadPage() {
   loading.value = true
@@ -95,9 +102,9 @@ onMounted(loadPage)
           v-for="item in navItems"
           :key="item.key"
           class="nav-button"
-          :class="{ active: activePage === item.key }"
+          :class="{ active: route.path === item.path }"
           type="button"
-          @click="setActivePage(item.key)"
+          @click="navigate(item.path)"
         >
           <component :is="item.icon" :size="20" />
           <span>{{ item.label }}</span>
@@ -116,23 +123,7 @@ onMounted(loadPage)
       <section v-if="loading" class="state-card">正在加载后端数据...</section>
       <section v-else-if="error" class="state-card error">{{ error }}</section>
 
-      <AiTeacherView
-        v-else-if="activePage === 'ai'"
-        :skills="skills"
-        :teachers="teachers"
-        @history-created="addHistory"
-        @files-changed="refreshFiles"
-      />
-
-      <HistoryView
-        v-else-if="activePage === 'history'"
-        :history="history"
-        :files="files"
-        @clear-history="clearHistory"
-        @delete-history="deleteHistory"
-      />
-
-      <DigitalTwinView v-else />
+      <router-view v-else />
     </main>
   </div>
 </template>

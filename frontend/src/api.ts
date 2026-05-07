@@ -1,4 +1,4 @@
-import type { ChatMessage, ChatResponse, GeneratedFile, SkillSummary, Teacher } from './types'
+import type { ChatMessage, ChatResponse, GeneratedFile, Skill, SkillSummary, Teacher } from './types'
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? defaultApiBaseUrl()
 
@@ -29,6 +29,10 @@ export function fetchTeachers(): Promise<Teacher[]> {
 
 export function fetchGeneratedFiles(): Promise<GeneratedFile[]> {
   return requestJson<GeneratedFile[]>('/api/generated-files')
+}
+
+export function fetchSkillContent(skillId: string): Promise<Skill> {
+  return requestJson<Skill>(`/api/skills/${encodeURIComponent(skillId)}`)
 }
 
 export async function streamChat(

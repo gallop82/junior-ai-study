@@ -1,23 +1,18 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, inject, ref, type Ref } from 'vue'
 import { ArrowLeft, Trash2 } from 'lucide-vue-next'
 import MarkdownContent from '../components/MarkdownContent.vue'
 import type { ConversationRecord, GeneratedFile } from '../types'
 
-const props = defineProps<{
-  history: ConversationRecord[]
-  files: GeneratedFile[]
-}>()
-
-const emit = defineEmits<{
-  deleteHistory: [recordId: string]
-}>()
+const history = inject<Ref<ConversationRecord[]>>('history', ref([]))
+const files = inject<Ref<GeneratedFile[]>>('files', ref([]))
+const deleteHistoryFn = inject<(id: string) => void>('deleteHistory', () => {})
 
 const openedRecord = ref<ConversationRecord | null>(null)
 
 const groupedHistory = computed(() => {
   const groups = new Map<string, ConversationRecord[]>()
-  for (const record of props.history) {
+  for (const record of history.value) {
     const list = groups.get(record.skillName) ?? []
     list.push(record)
     groups.set(record.skillName, list)
@@ -35,7 +30,7 @@ function closeRecord() {
 
 function deleteRecord(record: ConversationRecord) {
   if (openedRecord.value?.id === record.id) openedRecord.value = null
-  emit('deleteHistory', record.id)
+  deleteHistoryFn(record.id)
 }
 </script>
 
@@ -85,7 +80,6 @@ function deleteRecord(record: ConversationRecord) {
 
       <div class="history-detail">
         <article v-for="(message, index) in openedRecord.messages" :key="index" class="message" :class="message.role">
-          <span>{{ message.role === 'user' ? '我' : 'AI老师' }}</span>
           <MarkdownContent :content="message.content" />
         </article>
       </div>
