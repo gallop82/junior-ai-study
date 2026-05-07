@@ -1,4 +1,3 @@
-import asyncio
 import json
 
 from fastapi import APIRouter, HTTPException
@@ -32,10 +31,7 @@ def list_teachers() -> list[Teacher]:
 @router.post("/chat/stream")
 async def chat_stream(payload: ChatRequest):
     async def event_stream():
-        print(
-            f"[chat/stream] start question={payload.question!r} skills={payload.skill_ids}",
-            flush=True,
-        )
+
         yield _sse_data({"content": "", "done": False, "ready": True})
 
         teacher_service = TeacherService()
@@ -56,15 +52,10 @@ async def chat_stream(payload: ChatRequest):
             articles=articles,
             history=payload.history,
         ):
-            print(f"[chat/stream] model chunk={chunk!r}", flush=True)
             answer_parts.append(chunk)
-            for char in chunk:
-                print(f"[chat/stream] send char={char!r}", flush=True)
-                yield _sse_data({"content": char, "done": False})
-                await asyncio.sleep(0.01)
+            yield _sse_data({"content": chunk, "done": False})
 
         answer = "".join(answer_parts)
-        print(f"[chat/stream] done answer_length={len(answer)}", flush=True)
         files = []
         if payload.generate_file:
             title = payload.question[:24]
