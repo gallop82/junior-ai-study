@@ -7,7 +7,10 @@ function defaultApiBaseUrl(): string {
 }
 
 function apiUrl(path: string): string {
-  return `${API_BASE_URL}${path}`
+  // 确保 API_BASE_URL 不以 / 结尾，且 path 以 / 开头
+  const base = API_BASE_URL.endsWith('/') ? API_BASE_URL.slice(0, -1) : API_BASE_URL
+  const p = path.startsWith('/') ? path : `/${path}`
+  return `${base}${p}`
 }
 
 async function requestJson<T>(url: string, options?: RequestInit): Promise<T> {

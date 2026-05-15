@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: junior-ai-backend
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/generated:/app/generated
+    env_file:
+      - ./backend/.env
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_API_BASE_URL=/api
+    container_name: junior-ai-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: always

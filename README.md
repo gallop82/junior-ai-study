@@ -47,37 +47,57 @@ Junior AI Study（青少年 AI 学习助手）是一个旨在为青少年提供�
 ## 🚀 快速启动
 
 ### 1. 后端环境配置
-
 ```bash
 cd backend
-
-# 安装 Python 依赖
+cp .env.example .env  # 填写你的 API Key
 pip install -r requirements.txt
-
-# 配置环境变量 (根目录创建 .env 文件)
-# 请在 .env 中填入以下内容：
-# OPENAI_API_KEY=your_api_key_here
-# OPENAI_API_BASE=https://api.deepseek.com/v1 (或者其他兼容接口)
-
-# 启动 FastAPI 服务 (默认运行在 http://localhost:8000)
 python main.py
 ```
 
 ### 2. 前端环境配置
-
 ```bash
 cd frontend
-
-# 安装 Node.js 依赖 (推荐使用 Node 18+)
+cp .env.example .env
 npm install
-
-# 启动 Vite 本地开发服务器
 npm run dev
 ```
 
-打开浏览器访问 `http://localhost:5173` 即可开始体验。
+---
+
+## 🐳 Docker 部署 (推荐)
+
+项目已配置标准 Docker Compose 环境，可一键启动：
+
+```bash
+# 1. 确保已安装 Docker 和 Docker Compose
+# 2. 配置 backend/.env 环境变量
+# 3. 启动
+docker-compose up -d --build
+```
+启动后：
+- 前端访问：`http://localhost:8080`
+- 后端访问：`http://localhost:8001`
+
+---
+
+## 🌐 Nginx 部署 (子路径挂载)
+
+如果你想把项目挂载到子路径（如 `http://domain.com/junior/`），请参考以下步骤：
+
+1.  **前端打包**：设置环境变量 `VITE_BASE_PATH=/junior/`
+    ```bash
+    cd frontend
+    VITE_BASE_PATH=/junior/ npm run build
+    ```
+2.  **Nginx 配置**：参考 [nginx.conf.example](./nginx.conf.example)
+    - 将 `location /` 改为 `location /junior/`。
+    - 确保 `alias` 指向正确的 `dist` 目录。
+    - API 转发建议统一使用 `location /api/` 或根据需要调整。
+
+---
 
 ## 📁 目录结构
+... (保持原样)
 
 ```text
 junior-ai-study/

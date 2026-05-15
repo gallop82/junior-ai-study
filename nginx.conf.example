@@ -1,0 +1,32 @@
+server {
+    listen 80;
+    server_name yourdomain.com; # 替换为你的域名或 IP
+
+    # 前端静态文件
+    location / {
+        root /var/www/junior-ai/frontend/dist; # 替换为你的 dist 实际路径
+        index index.html;
+        try_files $uri $uri/ /index.html;
+    }
+
+    # 后端 API 转发
+    location /api/ {
+        proxy_pass http://127.0.0.1:8001/api/; # 对应 backend 运行端口
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        # 重要：SSE (流式输出) 需要禁用缓存和缓冲
+        proxy_set_header Cache-Control no-cache;
+        proxy_buffering off;
+        proxy_cache off;
+        chunked_transfer_encoding on;
+        tcp_nopush on;
+        tcp_nodelay on;
+        keepalive_timeout 65;
+    }
+}
