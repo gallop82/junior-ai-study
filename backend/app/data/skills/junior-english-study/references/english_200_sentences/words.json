@@ -1,0 +1,5191 @@
+﻿[
+  {
+    "id": 1,
+    "word": "a few",
+    "phonetic": "[ə fju:]",
+    "meaning": "短语：有些，几个[后接可数名词复数]",
+    "sentenceId": 18
+  },
+  {
+    "id": 2,
+    "word": "a little",
+    "phonetic": "[ə ˈlitl]",
+    "meaning": "短语：一些，一点[后接不可数名词]",
+    "sentenceId": 18
+  },
+  {
+    "id": 3,
+    "word": "a lot of",
+    "phonetic": "[ə lɔt ɔv]",
+    "meaning": "短语：大量的，许多的",
+    "sentenceId": 20
+  },
+  {
+    "id": 4,
+    "word": "a number of",
+    "phonetic": "[ə ˈnʌmbə ɒv]",
+    "meaning": "短语：许多；大量",
+    "sentenceId": 181
+  },
+  {
+    "id": 5,
+    "word": "ability",
+    "phonetic": "[əˈbɪləti]",
+    "meaning": "n. 能力，才能；本领，技能",
+    "sentenceId": 44
+  },
+  {
+    "id": 6,
+    "word": "about",
+    "phonetic": "[əˈbaʊt]",
+    "meaning": "adv. 大约；大概；prep. 关于",
+    "sentenceId": 182
+  },
+  {
+    "id": 7,
+    "word": "accident",
+    "phonetic": "['æksidənt]",
+    "meaning": "n. 意外事件；事故",
+    "sentenceId": 1
+  },
+  {
+    "id": 8,
+    "word": "achieve",
+    "phonetic": "[əˈtʃiːv]",
+    "meaning": "v. 实现，达到；完成，获得",
+    "sentenceId": 50
+  },
+  {
+    "id": 9,
+    "word": "actively",
+    "phonetic": "[ˈæktɪvli]",
+    "meaning": "ad. 积极地，主动地；活跃地",
+    "sentenceId": 72
+  },
+  {
+    "id": 10,
+    "word": "activity",
+    "phonetic": "[ækˈtɪvəti]",
+    "meaning": "n. 活动，行动；活跃，活力",
+    "sentenceId": 10
+  },
+  {
+    "id": 11,
+    "word": "actress",
+    "phonetic": "[ˈæktrəs]",
+    "meaning": "n. 女演员",
+    "sentenceId": 109
+  },
+  {
+    "id": 12,
+    "word": "actually",
+    "phonetic": "[ˈæktʃuəli]",
+    "meaning": "ad. 实际上；事实上；竟然",
+    "sentenceId": 83
+  },
+  {
+    "id": 13,
+    "word": "add",
+    "phonetic": "[æd]",
+    "meaning": "v. 加；增加；添加；补充说",
+    "sentenceId": 100
+  },
+  {
+    "id": 14,
+    "word": "address",
+    "phonetic": "[əˈdres]",
+    "meaning": "n. 地址；演讲；v. 写地址；演说",
+    "sentenceId": 111
+  },
+  {
+    "id": 15,
+    "word": "advantage",
+    "phonetic": "[əd'va:ntid3]",
+    "meaning": "n. 有利条件；益处；优越（性）；处于支配地位",
+    "sentenceId": 2
+  },
+  {
+    "id": 16,
+    "word": "advise",
+    "phonetic": "[ədˈvaiz]",
+    "meaning": "vt. 劝（忠）告；建议；v. 建议",
+    "sentenceId": 11
+  },
+  {
+    "id": 17,
+    "word": "after class",
+    "phonetic": "[ˈa:ftə kla:s]",
+    "meaning": "短语：课后",
+    "sentenceId": 24
+  },
+  {
+    "id": 18,
+    "word": "after school",
+    "phonetic": "[ɑːftə skuːl]",
+    "meaning": "短语：放学后",
+    "sentenceId": 53
+  },
+  {
+    "id": 19,
+    "word": "again",
+    "phonetic": "[əˈɡen]",
+    "meaning": "ad. 再一次，又一次；此外",
+    "sentenceId": 56
+  },
+  {
+    "id": 20,
+    "word": "again and again",
+    "phonetic": "[əˈɡen ənd əˈɡen]",
+    "meaning": "短语：再三，反复，一次又一次",
+    "sentenceId": 73
+  },
+  {
+    "id": 21,
+    "word": "against",
+    "phonetic": "[əˈgenst]",
+    "meaning": "prep. （表示态度）反对；（表示对象）对抗",
+    "sentenceId": 6
+  },
+  {
+    "id": 22,
+    "word": "aged",
+    "phonetic": "[ˈeɪdʒɪd]",
+    "meaning": "a. 年老的；年迈的；……岁的",
+    "sentenceId": 91
+  },
+  {
+    "id": 23,
+    "word": "ago",
+    "phonetic": "[əˈgəu]",
+    "meaning": "ad. 以前",
+    "sentenceId": 23
+  },
+  {
+    "id": 24,
+    "word": "agree",
+    "phonetic": "[ə'gri:]",
+    "meaning": "vt.&vi. 同意，赞同",
+    "sentenceId": 2
+  },
+  {
+    "id": 25,
+    "word": "airport",
+    "phonetic": "[ˈeəpɔːt]",
+    "meaning": "n. 机场；航空港；航空站",
+    "sentenceId": 190
+  },
+  {
+    "id": 26,
+    "word": "alarm clock",
+    "phonetic": "[əˈlɑːm klɒk]",
+    "meaning": "短语：闹钟",
+    "sentenceId": 101
+  },
+  {
+    "id": 27,
+    "word": "all of us",
+    "phonetic": "[ɔːl ɒv əs]",
+    "meaning": "短语：我们所有人",
+    "sentenceId": 60
+  },
+  {
+    "id": 28,
+    "word": "all over the world",
+    "phonetic": "[ɔːl ˈəʊvə(r) ðə wɜːld]",
+    "meaning": "短语：世界各地；全世界",
+    "sentenceId": 140
+  },
+  {
+    "id": 29,
+    "word": "allow",
+    "phonetic": "[əˈlau]",
+    "meaning": "vt. 允许，准许；让……得到",
+    "sentenceId": 24
+  },
+  {
+    "id": 30,
+    "word": "alone",
+    "phonetic": "[əˈləun]",
+    "meaning": "a. 单独的；ad. 单独地，独自地",
+    "sentenceId": 23
+  },
+  {
+    "id": 31,
+    "word": "aloud",
+    "phonetic": "[əˈlaud]",
+    "meaning": "ad. 出声地，大声地",
+    "sentenceId": 22
+  },
+  {
+    "id": 32,
+    "word": "already",
+    "phonetic": "[ɔːlˈredi]",
+    "meaning": "ad. 已经，早已，先前",
+    "sentenceId": 27
+  },
+  {
+    "id": 33,
+    "word": "although",
+    "phonetic": "[ɔ:lˈðəu]",
+    "meaning": "conj. 虽然，尽管；然而",
+    "sentenceId": 12
+  },
+  {
+    "id": 34,
+    "word": "always",
+    "phonetic": "[ˈɔ:lweiz]",
+    "meaning": "ad. 总是；一直；永远",
+    "sentenceId": 21
+  },
+  {
+    "id": 35,
+    "word": "amazing",
+    "phonetic": "[əˈmeɪzɪŋ]",
+    "meaning": "a. 令人惊讶的；令人惊奇的",
+    "sentenceId": 85
+  },
+  {
+    "id": 36,
+    "word": "ambition",
+    "phonetic": "[æmˈbɪʃn]",
+    "meaning": "n. 抱负；野心；愿望",
+    "sentenceId": 91
+  },
+  {
+    "id": 37,
+    "word": "ancient",
+    "phonetic": "[ˈeɪnʃənt]",
+    "meaning": "a. 古代的；古老的；年老的",
+    "sentenceId": 104
+  },
+  {
+    "id": 38,
+    "word": "and so on",
+    "phonetic": "[ænd səʊ ɒn]",
+    "meaning": "短语：等等；诸如此类",
+    "sentenceId": 92
+  },
+  {
+    "id": 39,
+    "word": "animal",
+    "phonetic": "[ˈænɪml]",
+    "meaning": "n. 动物；兽；牲畜；a. 动物的；肉体的",
+    "sentenceId": 130
+  },
+  {
+    "id": 40,
+    "word": "army",
+    "phonetic": "[ˈɑːmi]",
+    "meaning": "n. 军队；陆军；大群",
+    "sentenceId": 108
+  },
+  {
+    "id": 41,
+    "word": "arrange",
+    "phonetic": "[əˈreɪndʒ]",
+    "meaning": "v. 安排；整理；筹备",
+    "sentenceId": 76
+  },
+  {
+    "id": 42,
+    "word": "arrive",
+    "phonetic": "[əˈraɪv]",
+    "meaning": "vi. 到达；来临；成功",
+    "sentenceId": 27
+  },
+  {
+    "id": 43,
+    "word": "arrive at",
+    "phonetic": "[əˈraɪv æt]",
+    "meaning": "短语：到达（小地点）",
+    "sentenceId": 116
+  },
+  {
+    "id": 44,
+    "word": "article",
+    "phonetic": "[ˈɑːtɪkl]",
+    "meaning": "n. 文章；物品；条款",
+    "sentenceId": 110
+  },
+  {
+    "id": 45,
+    "word": "as long as",
+    "phonetic": "[æz lɒŋ æz]",
+    "meaning": "短语：只要；和……一样长",
+    "sentenceId": 50
+  },
+  {
+    "id": 46,
+    "word": "as planned",
+    "phonetic": "[æz plænd]",
+    "meaning": "短语：按计划；照方案",
+    "sentenceId": 179
+  },
+  {
+    "id": 47,
+    "word": "as soon as",
+    "phonetic": "[æz suːn æz]",
+    "meaning": "短语：一……就……",
+    "sentenceId": 114
+  },
+  {
+    "id": 48,
+    "word": "as soon as possible",
+    "phonetic": "[æz su:n æz ˈpɔsəbl]",
+    "meaning": "短语：尽快地",
+    "sentenceId": 15
+  },
+  {
+    "id": 49,
+    "word": "as we all know",
+    "phonetic": "[æz wiː ɔːl nəʊ]",
+    "meaning": "短语：众所周知，正如我们所知",
+    "sentenceId": 75
+  },
+  {
+    "id": 50,
+    "word": "ask",
+    "phonetic": "[ɑːsk]",
+    "meaning": "v. 问，询问；请求，要求；邀请",
+    "sentenceId": 35
+  },
+  {
+    "id": 51,
+    "word": "ask for help",
+    "phonetic": "[ɑːsk fɔː help]",
+    "meaning": "短语：求助；寻求帮助",
+    "sentenceId": 133
+  },
+  {
+    "id": 52,
+    "word": "at",
+    "phonetic": "[æt]",
+    "meaning": "prep. 在……方面；向；达",
+    "sentenceId": 118
+  },
+  {
+    "id": 53,
+    "word": "at home",
+    "phonetic": "[æt həʊm]",
+    "meaning": "短语：在家；在国内；自在",
+    "sentenceId": 142
+  },
+  {
+    "id": 54,
+    "word": "at least",
+    "phonetic": "[æt li:st]",
+    "meaning": "短语：至少",
+    "sentenceId": 22
+  },
+  {
+    "id": 55,
+    "word": "at the speed of",
+    "phonetic": "[æt ðə spiːd ɒv]",
+    "meaning": "短语：以……的速度",
+    "sentenceId": 147
+  },
+  {
+    "id": 56,
+    "word": "atmosphere",
+    "phonetic": "[ˈætməsfɪə(r)]",
+    "meaning": "n. 气氛；大气；空气",
+    "sentenceId": 107
+  },
+  {
+    "id": 57,
+    "word": "attack",
+    "phonetic": "[əˈtæk]",
+    "meaning": "v. 攻击；进攻；抨击；n. 攻击；袭击",
+    "sentenceId": 108
+  },
+  {
+    "id": 58,
+    "word": "attention",
+    "phonetic": "[ə'tenʃən]",
+    "meaning": "n. 注意，专心，留心",
+    "sentenceId": 11
+  },
+  {
+    "id": 59,
+    "word": "attract",
+    "phonetic": "[əˈtrækt]",
+    "meaning": "v. 吸引；引起……的注意",
+    "sentenceId": 86
+  },
+  {
+    "id": 60,
+    "word": "Australian",
+    "phonetic": "[ɒˈstreɪliən]",
+    "meaning": "a. 澳大利亚的；n. 澳大利亚人",
+    "sentenceId": 109
+  },
+  {
+    "id": 61,
+    "word": "away",
+    "phonetic": "[əˈweɪ]",
+    "meaning": "ad. 离开；远离；消失",
+    "sentenceId": 28
+  },
+  {
+    "id": 62,
+    "word": "bag",
+    "phonetic": "[bæɡ]",
+    "meaning": "n. 包；袋子；v. 把……装入袋中",
+    "sentenceId": 77
+  },
+  {
+    "id": 63,
+    "word": "balloon",
+    "phonetic": "[bəˈluːn]",
+    "meaning": "n. 气球；v. 膨胀；激增",
+    "sentenceId": 107
+  },
+  {
+    "id": 64,
+    "word": "basic",
+    "phonetic": "[ˈbeɪsɪk]",
+    "meaning": "a. 基本的；基础的；初级的",
+    "sentenceId": 119
+  },
+  {
+    "id": 65,
+    "word": "battle",
+    "phonetic": "[ˈbætl]",
+    "meaning": "n. 战斗；战役；v. 作战；搏斗",
+    "sentenceId": 108
+  },
+  {
+    "id": 66,
+    "word": "be",
+    "phonetic": "[bi]",
+    "meaning": "v. 是；存在；成为",
+    "sentenceId": 192
+  },
+  {
+    "id": 67,
+    "word": "be based on",
+    "phonetic": "[bi beɪst ɒn]",
+    "meaning": "短语：以……为基础；根据……改编",
+    "sentenceId": 136
+  },
+  {
+    "id": 68,
+    "word": "be covered with",
+    "phonetic": "[bi ˈkʌvəd wɪð]",
+    "meaning": "短语：被……覆盖",
+    "sentenceId": 105
+  },
+  {
+    "id": 69,
+    "word": "be filled with",
+    "phonetic": "[bi fɪld wɪð]",
+    "meaning": "短语：充满；洋溢着",
+    "sentenceId": 107
+  },
+  {
+    "id": 70,
+    "word": "be good at",
+    "phonetic": "[bi ɡʊd æt]",
+    "meaning": "短语：擅长；善于",
+    "sentenceId": 123
+  },
+  {
+    "id": 71,
+    "word": "be good for",
+    "phonetic": "[bi ɡʊd fɔː]",
+    "meaning": "短语：对……有好处",
+    "sentenceId": 160
+  },
+  {
+    "id": 72,
+    "word": "be on",
+    "phonetic": "[bi ɒn]",
+    "meaning": "短语：（电影、演出等）开始；上演",
+    "sentenceId": 116
+  },
+  {
+    "id": 73,
+    "word": "beautiful",
+    "phonetic": "[ˈbjuːtɪfl]",
+    "meaning": "a. 美丽的，漂亮的；出色的",
+    "sentenceId": 37
+  },
+  {
+    "id": 74,
+    "word": "become",
+    "phonetic": "[bɪˈkʌm]",
+    "meaning": "v. 变得；成为；变成",
+    "sentenceId": 118
+  },
+  {
+    "id": 75,
+    "word": "bedroom",
+    "phonetic": "[ˈbedruːm]",
+    "meaning": "n. 卧室；寝室",
+    "sentenceId": 79
+  },
+  {
+    "id": 76,
+    "word": "bee",
+    "phonetic": "[biː]",
+    "meaning": "n. 蜜蜂；蜂",
+    "sentenceId": 172
+  },
+  {
+    "id": 77,
+    "word": "before",
+    "phonetic": "[bɪˈfɔː(r)]",
+    "meaning": "prep. 在……之前；ad. 以前；conj. 在……之前",
+    "sentenceId": 40
+  },
+  {
+    "id": 78,
+    "word": "Beijing",
+    "phonetic": "[ˌbeɪˈdʒɪŋ]",
+    "meaning": "n. 北京（中国首都）",
+    "sentenceId": 39
+  },
+  {
+    "id": 79,
+    "word": "bell",
+    "phonetic": "[bel]",
+    "meaning": "n. 铃；钟；铃声",
+    "sentenceId": 114
+  },
+  {
+    "id": 80,
+    "word": "belong to",
+    "phonetic": "[bɪˈlɒŋ tuː]",
+    "meaning": "短语：属于；是……的成员",
+    "sentenceId": 75
+  },
+  {
+    "id": 81,
+    "word": "besides",
+    "phonetic": "[bɪˈsaɪdz]",
+    "meaning": "ad. 此外；prep. 除...之外（还）",
+    "sentenceId": 8
+  },
+  {
+    "id": 82,
+    "word": "better",
+    "phonetic": "[ˈbetə(r)]",
+    "meaning": "a. 更好的；ad. 更好地；v. 改善",
+    "sentenceId": 29
+  },
+  {
+    "id": 83,
+    "word": "birthday",
+    "phonetic": "[ˈbɜːθdeɪ]",
+    "meaning": "n. 生日；诞辰",
+    "sentenceId": 36
+  },
+  {
+    "id": 84,
+    "word": "blind",
+    "phonetic": "[blaɪnd]",
+    "meaning": "a. 盲目的；失明的；v. 使失明；蒙蔽",
+    "sentenceId": 109
+  },
+  {
+    "id": 85,
+    "word": "book",
+    "phonetic": "[buk]",
+    "meaning": "n. 书，本子；v. 预定，定（房间、车票等）",
+    "sentenceId": 25
+  },
+  {
+    "id": 86,
+    "word": "borrow",
+    "phonetic": "['bɔrəu]",
+    "meaning": "vt.&vi. 借，借进",
+    "sentenceId": 4
+  },
+  {
+    "id": 87,
+    "word": "both A and B",
+    "phonetic": "[bəuθ ei ænd bi:]",
+    "meaning": "短语：A和B都......",
+    "sentenceId": 12
+  },
+  {
+    "id": 88,
+    "word": "bottom",
+    "phonetic": "[ˈbɒtəm]",
+    "meaning": "n. 底部；末端；a. 底部的；最后的",
+    "sentenceId": 94
+  },
+  {
+    "id": 89,
+    "word": "break out",
+    "phonetic": "[breɪk aʊt]",
+    "meaning": "短语：爆发；突发",
+    "sentenceId": 108
+  },
+  {
+    "id": 90,
+    "word": "bright",
+    "phonetic": "[brait]",
+    "meaning": "a. 明亮的，鲜亮的；聪明的；辉煌的；活泼的，机灵的，乖巧的",
+    "sentenceId": 2
+  },
+  {
+    "id": 91,
+    "word": "bring",
+    "phonetic": "[brɪŋ]",
+    "meaning": "v. 带来；引起；促使",
+    "sentenceId": 78
+  },
+  {
+    "id": 92,
+    "word": "broken",
+    "phonetic": "[ˈbrəʊkən]",
+    "meaning": "a. 破碎的；坏掉的；中断的",
+    "sentenceId": 101
+  },
+  {
+    "id": 93,
+    "word": "brother",
+    "phonetic": "[ˈbrʌðə(r)]",
+    "meaning": "n. 兄弟；同事，同胞",
+    "sentenceId": 71
+  },
+  {
+    "id": 94,
+    "word": "brush",
+    "phonetic": "[brʌʃ]",
+    "meaning": "v. 刷；掠过；n. 刷子；画笔",
+    "sentenceId": 79
+  },
+  {
+    "id": 95,
+    "word": "build",
+    "phonetic": "[bɪld]",
+    "meaning": "v. 建造，修建；建立；n. 体型，体格",
+    "sentenceId": 52
+  },
+  {
+    "id": 96,
+    "word": "bund",
+    "phonetic": "[bʌnd]",
+    "meaning": "n. 外滩；堤岸；码头",
+    "sentenceId": 96
+  },
+  {
+    "id": 97,
+    "word": "bus",
+    "phonetic": "[bʌs]",
+    "meaning": "n. 公共汽车，巴士",
+    "sentenceId": 30
+  },
+  {
+    "id": 98,
+    "word": "bus stop",
+    "phonetic": "[bʌs stɒp]",
+    "meaning": "短语：公交车站",
+    "sentenceId": 34
+  },
+  {
+    "id": 99,
+    "word": "businessman",
+    "phonetic": "[ˈbɪznəsmæn]",
+    "meaning": "n. 商人；实业家",
+    "sentenceId": 80
+  },
+  {
+    "id": 100,
+    "word": "busy",
+    "phonetic": "[ˈbizi]",
+    "meaning": "a. 忙的；繁忙的",
+    "sentenceId": 20
+  },
+  {
+    "id": 101,
+    "word": "button",
+    "phonetic": "[ˈbʌtn]",
+    "meaning": "n. 钮扣；按钮",
+    "sentenceId": 15
+  },
+  {
+    "id": 102,
+    "word": "by",
+    "phonetic": "[baɪ]",
+    "meaning": "prep. 通过；被；用；乘（车/船）；ad. 经过；在旁边",
+    "sentenceId": 44
+  },
+  {
+    "id": 103,
+    "word": "by the end of",
+    "phonetic": "[baɪ ði end ɒv]",
+    "meaning": "短语：到……结束时，到……为止",
+    "sentenceId": 61
+  },
+  {
+    "id": 104,
+    "word": "by the time",
+    "phonetic": "[baɪ ðə taɪm]",
+    "meaning": "短语：到……的时候",
+    "sentenceId": 116
+  },
+  {
+    "id": 105,
+    "word": "camp",
+    "phonetic": "[kæmp]",
+    "meaning": "n. 营地；野营；v. 野营；露营",
+    "sentenceId": 81
+  },
+  {
+    "id": 106,
+    "word": "cancel",
+    "phonetic": "[ˈkænsəl]",
+    "meaning": "vt. 取消，废除；抵消，对消；删去，划掉",
+    "sentenceId": 17
+  },
+  {
+    "id": 107,
+    "word": "careful",
+    "phonetic": "[ˈkeəfl]",
+    "meaning": "a. 细心的；仔细的；谨慎的",
+    "sentenceId": 151
+  },
+  {
+    "id": 108,
+    "word": "carefully",
+    "phonetic": "[ˈkeəfəli]",
+    "meaning": "adv. 认真地；仔细地；小心地",
+    "sentenceId": 139
+  },
+  {
+    "id": 109,
+    "word": "careless",
+    "phonetic": "[ˈkeələs]",
+    "meaning": "a. 粗心的；随便的",
+    "sentenceId": 15
+  },
+  {
+    "id": 110,
+    "word": "carry",
+    "phonetic": "[ˈkæri]",
+    "meaning": "v. 搬；扛；提；携带",
+    "sentenceId": 191
+  },
+  {
+    "id": 111,
+    "word": "cartoon",
+    "phonetic": "[kɑːˈtuːn]",
+    "meaning": "n. 卡通；动画片；漫画；v. 画漫画",
+    "sentenceId": 128
+  },
+  {
+    "id": 112,
+    "word": "catch",
+    "phonetic": "[kætʃ]",
+    "meaning": "v. 抓住，接住；赶上；理解；感染",
+    "sentenceId": 39
+  },
+  {
+    "id": 113,
+    "word": "catch up with",
+    "phonetic": "[kætʃ ʌp wɪð]",
+    "meaning": "短语：追上；赶上；跟上",
+    "sentenceId": 157
+  },
+  {
+    "id": 114,
+    "word": "cave",
+    "phonetic": "[keɪv]",
+    "meaning": "n. 洞穴；山洞；v. 凹陷；塌落",
+    "sentenceId": 104
+  },
+  {
+    "id": 115,
+    "word": "celebrate",
+    "phonetic": "[ˈselɪbreɪt]",
+    "meaning": "v. 庆祝；颂扬；赞美",
+    "sentenceId": 103
+  },
+  {
+    "id": 116,
+    "word": "chance",
+    "phonetic": "[tʃɑ:ns]",
+    "meaning": "n. 可能性；机会",
+    "sentenceId": 16
+  },
+  {
+    "id": 117,
+    "word": "change",
+    "phonetic": "[tʃeɪndʒ]",
+    "meaning": "v. 改变；交换；兑换；n. 变化；更换；零钱",
+    "sentenceId": 10
+  },
+  {
+    "id": 118,
+    "word": "channel",
+    "phonetic": "[ˈtʃænl]",
+    "meaning": "n. 频道；渠道；海峡；v. 引导；开导",
+    "sentenceId": 86
+  },
+  {
+    "id": 119,
+    "word": "character",
+    "phonetic": "[ˈkærəktə(r)]",
+    "meaning": "n. 人物；角色；性格；特征",
+    "sentenceId": 128
+  },
+  {
+    "id": 120,
+    "word": "charity sale",
+    "phonetic": "[ˈtʃærəti seɪl]",
+    "meaning": "短语：慈善义卖；义卖活动",
+    "sentenceId": 194
+  },
+  {
+    "id": 121,
+    "word": "charity show",
+    "phonetic": "[ˈtʃærəti ʃəʊ]",
+    "meaning": "短语：慈善演出",
+    "sentenceId": 109
+  },
+  {
+    "id": 122,
+    "word": "chemical factory",
+    "phonetic": "[ˈkemɪkl ˈfæktri]",
+    "meaning": "短语：化工厂",
+    "sentenceId": 105
+  },
+  {
+    "id": 123,
+    "word": "childhood",
+    "phonetic": "[ˈtʃaɪldhʊd]",
+    "meaning": "n. 童年；幼年时期",
+    "sentenceId": 84
+  },
+  {
+    "id": 124,
+    "word": "choose",
+    "phonetic": "[tʃuːz]",
+    "meaning": "v. 选择；决定；宁愿",
+    "sentenceId": 93
+  },
+  {
+    "id": 125,
+    "word": "cinema",
+    "phonetic": "[ˈsɪnəmə]",
+    "meaning": "n. 电影院；电影，影片",
+    "sentenceId": 27
+  },
+  {
+    "id": 126,
+    "word": "city",
+    "phonetic": "[ˈsɪti]",
+    "meaning": "n. 城市，都市，市",
+    "sentenceId": 37
+  },
+  {
+    "id": 127,
+    "word": "city library",
+    "phonetic": "[ˈsɪti ˈlaɪbrəri]",
+    "meaning": "短语：市图书馆",
+    "sentenceId": 180
+  },
+  {
+    "id": 128,
+    "word": "class",
+    "phonetic": "[klɑːs]",
+    "meaning": "n. 班级，课；等级，类别；v. 分类，归类",
+    "sentenceId": 46
+  },
+  {
+    "id": 129,
+    "word": "classroom",
+    "phonetic": "[ˈkla:sru:m]",
+    "meaning": "n. 教室，课堂",
+    "sentenceId": 24
+  },
+  {
+    "id": 130,
+    "word": "clean",
+    "phonetic": "[kli:n]",
+    "meaning": "a. 清洁的，干净的；v. 弄干净，擦干净",
+    "sentenceId": 21
+  },
+  {
+    "id": 131,
+    "word": "clerk",
+    "phonetic": "[klɑːk]",
+    "meaning": "n. 职员；店员；办事员",
+    "sentenceId": 93
+  },
+  {
+    "id": 132,
+    "word": "climate",
+    "phonetic": "[ˈklaɪmɪt]",
+    "meaning": "n. 气候",
+    "sentenceId": 10
+  },
+  {
+    "id": 133,
+    "word": "club",
+    "phonetic": "[klʌb]",
+    "meaning": "n. 俱乐部",
+    "sentenceId": 10
+  },
+  {
+    "id": 134,
+    "word": "college",
+    "phonetic": "[ˈkɒlɪdʒ]",
+    "meaning": "n. 大学，学院；高等专科学校",
+    "sentenceId": 33
+  },
+  {
+    "id": 135,
+    "word": "come into",
+    "phonetic": "[kʌm ˈɪntuː]",
+    "meaning": "短语：进入；走进；加入",
+    "sentenceId": 139
+  },
+  {
+    "id": 136,
+    "word": "communicate",
+    "phonetic": "[kəˈmjuːnɪkeɪt]",
+    "meaning": "v. 交流，沟通；传达，传递",
+    "sentenceId": 67
+  },
+  {
+    "id": 137,
+    "word": "community",
+    "phonetic": "[kəˈmjuːnəti]",
+    "meaning": "n. 社区；群落；共同体；团体",
+    "sentenceId": 129
+  },
+  {
+    "id": 138,
+    "word": "compare",
+    "phonetic": "[kəmˈpeə(r)]",
+    "meaning": "v. 比较，对比；与……类似；把……比作",
+    "sentenceId": 54
+  },
+  {
+    "id": 139,
+    "word": "competition",
+    "phonetic": "[ˌkɒmpəˈtɪʃn]",
+    "meaning": "n. 比赛；竞赛；竞争",
+    "sentenceId": 175
+  },
+  {
+    "id": 140,
+    "word": "computer",
+    "phonetic": "[kəmˈpjuːtə(r)]",
+    "meaning": "n. 计算机，电脑",
+    "sentenceId": 48
+  },
+  {
+    "id": 141,
+    "word": "computer games",
+    "phonetic": "[kəmˈpjuːtə ɡeɪmz]",
+    "meaning": "短语：电脑游戏，电子游戏",
+    "sentenceId": 53
+  },
+  {
+    "id": 142,
+    "word": "confidence",
+    "phonetic": "[ˈkɒnfɪdəns]",
+    "meaning": "n. 信心；信任；秘密",
+    "sentenceId": 6
+  },
+  {
+    "id": 143,
+    "word": "context",
+    "phonetic": "[ˈkɒntekst]",
+    "meaning": "n. 上下文；语境；背景",
+    "sentenceId": 199
+  },
+  {
+    "id": 144,
+    "word": "continue",
+    "phonetic": "[kənˈtɪnjuː]",
+    "meaning": "v. 继续；延续；延伸",
+    "sentenceId": 103
+  },
+  {
+    "id": 145,
+    "word": "cook",
+    "phonetic": "[kuk]",
+    "meaning": "vt. 烹调，煮，烧；n. 厨师，炊事员",
+    "sentenceId": 19
+  },
+  {
+    "id": 146,
+    "word": "could",
+    "phonetic": "[kud]",
+    "meaning": "modal v. 能，可以（can的过去式）；（表示请求）能",
+    "sentenceId": 26
+  },
+  {
+    "id": 147,
+    "word": "couldn't help",
+    "phonetic": "[ˈkʊdnt help]",
+    "meaning": "短语：忍不住；禁不住",
+    "sentenceId": 128
+  },
+  {
+    "id": 148,
+    "word": "cross the road",
+    "phonetic": "[krɒs ðə rəʊd]",
+    "meaning": "短语：过马路；横穿马路",
+    "sentenceId": 196
+  },
+  {
+    "id": 149,
+    "word": "cross the street",
+    "phonetic": "[krɒs ðə striːt]",
+    "meaning": "短语：过马路",
+    "sentenceId": 73
+  },
+  {
+    "id": 150,
+    "word": "crowd",
+    "phonetic": "[kraud]",
+    "meaning": "n. 人群，群众；一群；v. 聚集；挤满；挤，推",
+    "sentenceId": 20
+  },
+  {
+    "id": 151,
+    "word": "cry",
+    "phonetic": "[kraɪ]",
+    "meaning": "v. 哭；哭泣；流泪；n. 哭声；叫喊",
+    "sentenceId": 149
+  },
+  {
+    "id": 152,
+    "word": "culture",
+    "phonetic": "[ˈkʌltʃə]",
+    "meaning": "n. 文化，文明；教养",
+    "sentenceId": 18
+  },
+  {
+    "id": 153,
+    "word": "custom",
+    "phonetic": "[ˈkʌstəm]",
+    "meaning": "n. 风俗；习俗；习惯；惯例",
+    "sentenceId": 127
+  },
+  {
+    "id": 154,
+    "word": "cut down",
+    "phonetic": "[kʌt daʊn]",
+    "meaning": "短语：砍伐；削减；减少",
+    "sentenceId": 170
+  },
+  {
+    "id": 155,
+    "word": "daily goods",
+    "phonetic": "[ˈdeɪli ɡʊdz]",
+    "meaning": "短语：日用品；日常用品",
+    "sentenceId": 97
+  },
+  {
+    "id": 156,
+    "word": "dare",
+    "phonetic": "[deə(r)]",
+    "meaning": "v. 敢；敢于；挑战；aux. 敢；竟敢",
+    "sentenceId": 87
+  },
+  {
+    "id": 157,
+    "word": "day",
+    "phonetic": "[deɪ]",
+    "meaning": "n. 一天，一日；白天；时期，时代",
+    "sentenceId": 66
+  },
+  {
+    "id": 158,
+    "word": "dead",
+    "phonetic": "[ded]",
+    "meaning": "a. 死的；无生命的；废弃的",
+    "sentenceId": 105
+  },
+  {
+    "id": 159,
+    "word": "deal with",
+    "phonetic": "[diːl wɪð]",
+    "meaning": "短语：处理；应对；涉及",
+    "sentenceId": 88
+  },
+  {
+    "id": 160,
+    "word": "decide",
+    "phonetic": "[dɪˈsaɪd]",
+    "meaning": "v. 决定；判定；选定",
+    "sentenceId": 194
+  },
+  {
+    "id": 161,
+    "word": "decision",
+    "phonetic": "[dɪˈsɪʒn]",
+    "meaning": "n. 决定；果断；决议",
+    "sentenceId": 7
+  },
+  {
+    "id": 162,
+    "word": "decorate",
+    "phonetic": "[ˈdekəreɪt]",
+    "meaning": "v. 装饰；装潢；布置",
+    "sentenceId": 79
+  },
+  {
+    "id": 163,
+    "word": "deep",
+    "phonetic": "[diːp]",
+    "meaning": "a. 深的；深厚的；ad. 深深地",
+    "sentenceId": 104
+  },
+  {
+    "id": 164,
+    "word": "delicious",
+    "phonetic": "[dɪˈlɪʃəs]",
+    "meaning": "a. 美味的；可口的；芬芳的",
+    "sentenceId": 165
+  },
+  {
+    "id": 165,
+    "word": "depend on",
+    "phonetic": "[dɪˈpend ɒn]",
+    "meaning": "短语：依靠；取决于；依赖",
+    "sentenceId": 84
+  },
+  {
+    "id": 166,
+    "word": "deskmate",
+    "phonetic": "[ˈdeskmeɪt]",
+    "meaning": "n. 同桌；同座",
+    "sentenceId": 177
+  },
+  {
+    "id": 167,
+    "word": "develop",
+    "phonetic": "[dɪˈveləp]",
+    "meaning": "v. 养成；发展；开发；培养",
+    "sentenceId": 185
+  },
+  {
+    "id": 168,
+    "word": "dictionary",
+    "phonetic": "[ˈdikʃənəri]",
+    "meaning": "n. 词典，字典",
+    "sentenceId": 13
+  },
+  {
+    "id": 169,
+    "word": "difficult",
+    "phonetic": "[ˈdɪfɪkəlt]",
+    "meaning": "a. 困难的",
+    "sentenceId": 9
+  },
+  {
+    "id": 170,
+    "word": "difficulty",
+    "phonetic": "[ˈdɪfɪkəlti]",
+    "meaning": "n. 困难；难题；困境；难事",
+    "sentenceId": 135
+  },
+  {
+    "id": 171,
+    "word": "direct",
+    "phonetic": "[dəˈrekt]",
+    "meaning": "v. 导演；指导；指挥；管理；a. 直接的；笔直的",
+    "sentenceId": 136
+  },
+  {
+    "id": 172,
+    "word": "disappear",
+    "phonetic": "[ˌdɪsəˈpɪə(r)]",
+    "meaning": "v. 消失；消逝；不见；灭绝",
+    "sentenceId": 147
+  },
+  {
+    "id": 173,
+    "word": "discover",
+    "phonetic": "[dɪˈskʌvə]",
+    "meaning": "vt. 发现",
+    "sentenceId": 6
+  },
+  {
+    "id": 174,
+    "word": "discovery",
+    "phonetic": "[dɪˈskʌvəri]",
+    "meaning": "n. 发现；发觉；被发现的事物",
+    "sentenceId": 113
+  },
+  {
+    "id": 175,
+    "word": "discuss",
+    "phonetic": "[disˈkʌs]",
+    "meaning": "vt. 讨论，谈论，论述",
+    "sentenceId": 17
+  },
+  {
+    "id": 176,
+    "word": "disease",
+    "phonetic": "[dɪˈzi:z]",
+    "meaning": "n. 疾病",
+    "sentenceId": 6
+  },
+  {
+    "id": 177,
+    "word": "do homework",
+    "phonetic": "[duː ˈhəʊmwɜːk]",
+    "meaning": "短语：做作业",
+    "sentenceId": 63
+  },
+  {
+    "id": 178,
+    "word": "doctor",
+    "phonetic": "[ˈdɒktə(r)]",
+    "meaning": "n. 医生；大夫；博士",
+    "sentenceId": 159
+  },
+  {
+    "id": 179,
+    "word": "doing",
+    "phonetic": "[ˈduːɪŋ]",
+    "meaning": "v. 做，干（do的现在分词）",
+    "sentenceId": 63
+  },
+  {
+    "id": 180,
+    "word": "dream",
+    "phonetic": "[driːm]",
+    "meaning": "n. 梦想，梦；v. 做梦，梦见；向往",
+    "sentenceId": 50
+  },
+  {
+    "id": 181,
+    "word": "dull",
+    "phonetic": "[dʌl]",
+    "meaning": "a. 枯燥的；迟钝的；阴暗的",
+    "sentenceId": 86
+  },
+  {
+    "id": 182,
+    "word": "each",
+    "phonetic": "[i:tʃ]",
+    "meaning": "pron. 各（每）个；a. 各，各自的",
+    "sentenceId": 13
+  },
+  {
+    "id": 183,
+    "word": "each other",
+    "phonetic": "[i:tʃ ˈʌðə]",
+    "meaning": "互相，彼此",
+    "sentenceId": 17
+  },
+  {
+    "id": 184,
+    "word": "eager",
+    "phonetic": "[ˈiːɡə(r)]",
+    "meaning": "a. 渴望的；热切的；热心的",
+    "sentenceId": 92
+  },
+  {
+    "id": 185,
+    "word": "early",
+    "phonetic": "[ˈɜːli]",
+    "meaning": "a. 早的，早期的；ad. 早，提早",
+    "sentenceId": 57
+  },
+  {
+    "id": 186,
+    "word": "earth",
+    "phonetic": "[ɜːθ]",
+    "meaning": "n. 地球；大地；泥土；v. 把……埋入土中",
+    "sentenceId": 99
+  },
+  {
+    "id": 187,
+    "word": "easily",
+    "phonetic": "[ˈiːzɪli]",
+    "meaning": "ad. 容易地，轻易地；无疑地",
+    "sentenceId": 67
+  },
+  {
+    "id": 188,
+    "word": "eat",
+    "phonetic": "[iːt]",
+    "meaning": "v. 吃，喝；吃饭；侵蚀",
+    "sentenceId": 65
+  },
+  {
+    "id": 189,
+    "word": "ecosystem",
+    "phonetic": "[ˈiːkəʊsɪstəm]",
+    "meaning": "n. 生态系统；生态体系",
+    "sentenceId": 130
+  },
+  {
+    "id": 190,
+    "word": "education",
+    "phonetic": "[ˌedju:'keiʃən]",
+    "meaning": "n. 教育；教育学",
+    "sentenceId": 2
+  },
+  {
+    "id": 191,
+    "word": "either...or...",
+    "phonetic": "[ˈaɪðə(r) ɔː(r)]",
+    "meaning": "短语：或者……或者……；不是……就是……",
+    "sentenceId": 133
+  },
+  {
+    "id": 192,
+    "word": "encourage",
+    "phonetic": "[ɪnˈkʌrɪdʒ]",
+    "meaning": "v. 鼓励；激励；支持",
+    "sentenceId": 153
+  },
+  {
+    "id": 193,
+    "word": "endangered",
+    "phonetic": "[ɪnˈdeɪndʒəd]",
+    "meaning": "a. 濒危的；有生命危险的；濒临灭绝的",
+    "sentenceId": 147
+  },
+  {
+    "id": 194,
+    "word": "enemy",
+    "phonetic": "[ˈenəmi]",
+    "meaning": "n. 敌人；仇敌；adj. 敌人的",
+    "sentenceId": 108
+  },
+  {
+    "id": 195,
+    "word": "energy",
+    "phonetic": "[ˈenədʒi]",
+    "meaning": "n. 活力，干劲，精力；能，能量，能源",
+    "sentenceId": 16
+  },
+  {
+    "id": 196,
+    "word": "English",
+    "phonetic": "[ˈɪŋɡlɪʃ]",
+    "meaning": "n. 英语；a. 英国的，英格兰的",
+    "sentenceId": 59
+  },
+  {
+    "id": 197,
+    "word": "English speech contest",
+    "phonetic": "[ˈɪŋɡlɪʃ spiːtʃ ˈkɒntest]",
+    "meaning": "短语：英语演讲比赛",
+    "sentenceId": 72
+  },
+  {
+    "id": 198,
+    "word": "English words",
+    "phonetic": "[ˈɪŋɡlɪʃ wɜːdz]",
+    "meaning": "短语：英语单词",
+    "sentenceId": 61
+  },
+  {
+    "id": 199,
+    "word": "enhance",
+    "phonetic": "[ɪnˈhɑːns]",
+    "meaning": "vt. 提高，增强，增进",
+    "sentenceId": 44
+  },
+  {
+    "id": 200,
+    "word": "enjoy",
+    "phonetic": "[inˈdʒɔi]",
+    "meaning": "vt. 享受，喜爱",
+    "sentenceId": 12
+  },
+  {
+    "id": 201,
+    "word": "enlarge",
+    "phonetic": "[ɪnˈlɑːdʒ]",
+    "meaning": "v. 扩大；放大；扩展；扩充",
+    "sentenceId": 131
+  },
+  {
+    "id": 202,
+    "word": "enough",
+    "phonetic": "[ɪˈnʌf]",
+    "meaning": "a. 足够的；ad. 足够地；n. 足够",
+    "sentenceId": 77
+  },
+  {
+    "id": 203,
+    "word": "envelope",
+    "phonetic": "[ˈenvələʊp]",
+    "meaning": "n. 信封；封皮；壳层",
+    "sentenceId": 111
+  },
+  {
+    "id": 204,
+    "word": "environment",
+    "phonetic": "[ɪnˈvaɪrənmənt]",
+    "meaning": "n. 环境，周围状况，自然环境",
+    "sentenceId": 10
+  },
+  {
+    "id": 205,
+    "word": "especially",
+    "phonetic": "[ɪˈspeʃəli]",
+    "meaning": "ad. 特别；尤其；格外",
+    "sentenceId": 95
+  },
+  {
+    "id": 206,
+    "word": "even",
+    "phonetic": "['i:vən]",
+    "meaning": "ad. 甚至；更加",
+    "sentenceId": 4
+  },
+  {
+    "id": 207,
+    "word": "ever",
+    "phonetic": "[ˈevə]",
+    "meaning": "ad. 曾经；无论何时",
+    "sentenceId": 25
+  },
+  {
+    "id": 208,
+    "word": "every day",
+    "phonetic": "[ˈevri deɪ]",
+    "meaning": "短语：每天，天天",
+    "sentenceId": 43
+  },
+  {
+    "id": 209,
+    "word": "every morning",
+    "phonetic": "[ˈevri ˈmɔːnɪŋ]",
+    "meaning": "短语：每天早上",
+    "sentenceId": 74
+  },
+  {
+    "id": 210,
+    "word": "everyone",
+    "phonetic": "[ˈevriwʌn]",
+    "meaning": "pron. 每个人；人人",
+    "sentenceId": 165
+  },
+  {
+    "id": 211,
+    "word": "exam",
+    "phonetic": "[ig'zæm]",
+    "meaning": "n. 考试；测验",
+    "sentenceId": 5
+  },
+  {
+    "id": 212,
+    "word": "except",
+    "phonetic": "[ɪkˈsept]",
+    "meaning": "prep. 除……之外；conj. 除了；要不是",
+    "sentenceId": 87
+  },
+  {
+    "id": 213,
+    "word": "excited",
+    "phonetic": "[ɪkˈsaɪtɪd]",
+    "meaning": "a. 兴奋的，激动的（修饰人）",
+    "sentenceId": 36
+  },
+  {
+    "id": 214,
+    "word": "exercise",
+    "phonetic": "[ˈeksəsaɪz]",
+    "meaning": "n./v. 运动；练习；运用；[pl.] 体操，演习",
+    "sentenceId": 8
+  },
+  {
+    "id": 215,
+    "word": "exhibition",
+    "phonetic": "[ˌeksɪˈbɪʃn]",
+    "meaning": "n. 展览；展览会；展示",
+    "sentenceId": 91
+  },
+  {
+    "id": 216,
+    "word": "experience",
+    "phonetic": "[ɪkˈspɪəriəns]",
+    "meaning": "n. 经验；经历；v. 经历；体验",
+    "sentenceId": 88
+  },
+  {
+    "id": 217,
+    "word": "experiment",
+    "phonetic": "[ik'speriment]",
+    "meaning": "n. 实验，试验；尝试",
+    "sentenceId": 3
+  },
+  {
+    "id": 218,
+    "word": "explain",
+    "phonetic": "[ikˈsplein]",
+    "meaning": "v. 讲解，解释，说明",
+    "sentenceId": 20
+  },
+  {
+    "id": 219,
+    "word": "factory",
+    "phonetic": "[ˈfæktri]",
+    "meaning": "n. 工厂，制造厂",
+    "sentenceId": 33
+  },
+  {
+    "id": 220,
+    "word": "fail",
+    "phonetic": "[feil]",
+    "meaning": "vt.&vi. 失败，不及格；倒闭，破产",
+    "sentenceId": 3
+  },
+  {
+    "id": 221,
+    "word": "fall asleep",
+    "phonetic": "[fɔːl əˈsliːp]",
+    "meaning": "短语：入睡，睡着",
+    "sentenceId": 36
+  },
+  {
+    "id": 222,
+    "word": "famous",
+    "phonetic": "[ˈfeiməs]",
+    "meaning": "a. 著名的，出名的",
+    "sentenceId": 18
+  },
+  {
+    "id": 223,
+    "word": "fan",
+    "phonetic": "[fæn]",
+    "meaning": "n. 粉丝；风扇；v. 煽动；扇动",
+    "sentenceId": 83
+  },
+  {
+    "id": 224,
+    "word": "farmer",
+    "phonetic": "[ˈfɑːmə(r)]",
+    "meaning": "n. 农民；农夫；农场主",
+    "sentenceId": 87
+  },
+  {
+    "id": 225,
+    "word": "fast",
+    "phonetic": "[fɑːst]",
+    "meaning": "ad. 快，迅速地；a. 快的，迅速的",
+    "sentenceId": 39
+  },
+  {
+    "id": 226,
+    "word": "father",
+    "phonetic": "[ˈfɑːðə(r)]",
+    "meaning": "n. 父亲，爸爸；创始人，奠基人",
+    "sentenceId": 33
+  },
+  {
+    "id": 227,
+    "word": "father's",
+    "phonetic": "[ˈfɑːðəz]",
+    "meaning": "n. 父亲的（名词所有格）",
+    "sentenceId": 169
+  },
+  {
+    "id": 228,
+    "word": "fifty",
+    "phonetic": "[ˈfɪfti]",
+    "meaning": "num. 五十，五十个；n. 五十年代",
+    "sentenceId": 46
+  },
+  {
+    "id": 229,
+    "word": "film",
+    "phonetic": "[film]",
+    "meaning": "n. 电影；胶片（卷）",
+    "sentenceId": 18
+  },
+  {
+    "id": 230,
+    "word": "film star",
+    "phonetic": "[fɪlm stɑː(r)]",
+    "meaning": "短语：电影明星",
+    "sentenceId": 83
+  },
+  {
+    "id": 231,
+    "word": "finally",
+    "phonetic": "[ˈfaɪnəli]",
+    "meaning": "ad. 最后，终于；总算",
+    "sentenceId": 6
+  },
+  {
+    "id": 232,
+    "word": "finish",
+    "phonetic": "[ˈfɪnɪʃ]",
+    "meaning": "v. 完成，结束；n. 结束，末尾",
+    "sentenceId": 9
+  },
+  {
+    "id": 233,
+    "word": "firework",
+    "phonetic": "[ˈfaɪəwɜːk]",
+    "meaning": "n. 烟花；爆竹（常复数）",
+    "sentenceId": 106
+  },
+  {
+    "id": 234,
+    "word": "first",
+    "phonetic": "[fɜːst]",
+    "meaning": "ad. 首次；第一次；首先",
+    "sentenceId": 115
+  },
+  {
+    "id": 235,
+    "word": "first aid",
+    "phonetic": "[fɜːst eɪd]",
+    "meaning": "短语：急救",
+    "sentenceId": 119
+  },
+  {
+    "id": 236,
+    "word": "fit",
+    "phonetic": "[fɪt]",
+    "meaning": "a. 适合的；健康的；v. 适合；安装",
+    "sentenceId": 81
+  },
+  {
+    "id": 237,
+    "word": "flood",
+    "phonetic": "[flʌd]",
+    "meaning": "n. 洪水；水灾；v. 淹没；泛滥",
+    "sentenceId": 97
+  },
+  {
+    "id": 238,
+    "word": "flower",
+    "phonetic": "[ˈflaʊə(r)]",
+    "meaning": "n. 花；花卉；v. 开花",
+    "sentenceId": 197
+  },
+  {
+    "id": 239,
+    "word": "fluent",
+    "phonetic": "[ˈfluːənt]",
+    "meaning": "a. 流利的；流畅的；熟练的；流畅说的",
+    "sentenceId": 141
+  },
+  {
+    "id": 240,
+    "word": "fluently",
+    "phonetic": "[ˈfluːəntli]",
+    "meaning": "ad. 流利地，流畅地",
+    "sentenceId": 67
+  },
+  {
+    "id": 241,
+    "word": "fly",
+    "phonetic": "[flaɪ]",
+    "meaning": "v. 飞，飞行；乘飞机；放飞；n. 苍蝇；飞行",
+    "sentenceId": 68
+  },
+  {
+    "id": 242,
+    "word": "fly around",
+    "phonetic": "[flaɪ əˈraʊnd]",
+    "meaning": "短语：四处飞舞；飞来飞去",
+    "sentenceId": 172
+  },
+  {
+    "id": 243,
+    "word": "focus attention on",
+    "phonetic": "[ˈfəʊkəs əˈtenʃn ɒn]",
+    "meaning": "短语：聚焦注意力于……",
+    "sentenceId": 82
+  },
+  {
+    "id": 244,
+    "word": "follow",
+    "phonetic": "[ˈfɒləʊ]",
+    "meaning": "v. 遵守；跟随；遵循；理解",
+    "sentenceId": 196
+  },
+  {
+    "id": 245,
+    "word": "for five years",
+    "phonetic": "[fɔː faɪv jɪəz]",
+    "meaning": "短语：五年了（时间段）",
+    "sentenceId": 198
+  },
+  {
+    "id": 246,
+    "word": "for six years",
+    "phonetic": "[fɔː sɪks jɪəz]",
+    "meaning": "短语：六年了",
+    "sentenceId": 124
+  },
+  {
+    "id": 247,
+    "word": "for the first time",
+    "phonetic": "[fɔː ðə fɜːst taɪm]",
+    "meaning": "短语：第一次；初次",
+    "sentenceId": 143
+  },
+  {
+    "id": 248,
+    "word": "force",
+    "phonetic": "[fɔːs]",
+    "meaning": "v. 强迫；迫使；推动；n. 力量；武力",
+    "sentenceId": 100
+  },
+  {
+    "id": 249,
+    "word": "foreigner",
+    "phonetic": "[ˈfɒrənə(r)]",
+    "meaning": "n. 外国人，外籍人士",
+    "sentenceId": 67
+  },
+  {
+    "id": 250,
+    "word": "forget",
+    "phonetic": "[fəˈɡet]",
+    "meaning": "v. 忘记；忽略；不再想",
+    "sentenceId": 82
+  },
+  {
+    "id": 251,
+    "word": "form",
+    "phonetic": "[fɔːm]",
+    "meaning": "v. 形成，养成；构成；n. 形式，表格",
+    "sentenceId": 43
+  },
+  {
+    "id": 252,
+    "word": "free time",
+    "phonetic": "[friː taɪm]",
+    "meaning": "短语：空闲时间；业余时间",
+    "sentenceId": 187
+  },
+  {
+    "id": 253,
+    "word": "fresh",
+    "phonetic": "[freʃ]",
+    "meaning": "a. 新鲜的；清新的；新颖的",
+    "sentenceId": 122
+  },
+  {
+    "id": 254,
+    "word": "friend",
+    "phonetic": "[frend]",
+    "meaning": "n. 朋友；友人；伙伴",
+    "sentenceId": 169
+  },
+  {
+    "id": 255,
+    "word": "from",
+    "phonetic": "[frəm]",
+    "meaning": "prep. 从……；来自……；根据……",
+    "sentenceId": 199
+  },
+  {
+    "id": 256,
+    "word": "from here",
+    "phonetic": "[frəm hɪə(r)]",
+    "meaning": "短语：从这里",
+    "sentenceId": 180
+  },
+  {
+    "id": 257,
+    "word": "from...to...",
+    "phonetic": "[frəm tu]",
+    "meaning": "短语：从……到……",
+    "sentenceId": 182
+  },
+  {
+    "id": 258,
+    "word": "fruit",
+    "phonetic": "[fruːt]",
+    "meaning": "n. 水果，果实；成果；v. 结果实",
+    "sentenceId": 65
+  },
+  {
+    "id": 259,
+    "word": "future",
+    "phonetic": "['fju:tʃə]",
+    "meaning": "a. 将来的，未来的；n. 前途，未来",
+    "sentenceId": 2
+  },
+  {
+    "id": 260,
+    "word": "gain",
+    "phonetic": "[ɡeɪn]",
+    "meaning": "v. 获得；得到；增加",
+    "sentenceId": 163
+  },
+  {
+    "id": 261,
+    "word": "garden",
+    "phonetic": "[ˈɡɑːdn]",
+    "meaning": "n. 花园；菜园；果园",
+    "sentenceId": 172
+  },
+  {
+    "id": 262,
+    "word": "gentleman",
+    "phonetic": "[ˈdʒentlmən]",
+    "meaning": "n. 绅士；先生；有教养的人",
+    "sentenceId": 83
+  },
+  {
+    "id": 263,
+    "word": "geography",
+    "phonetic": "[dʒiˈɒɡrəfi]",
+    "meaning": "n. 地理；地理学",
+    "sentenceId": 110
+  },
+  {
+    "id": 264,
+    "word": "get home",
+    "phonetic": "[get həʊm]",
+    "meaning": "短语：到家",
+    "sentenceId": 30
+  },
+  {
+    "id": 265,
+    "word": "get to",
+    "phonetic": "[get tu:]",
+    "meaning": "短语：到达",
+    "sentenceId": 26
+  },
+  {
+    "id": 266,
+    "word": "get up",
+    "phonetic": "[ɡet ʌp]",
+    "meaning": "短语：起床；起身；站起来",
+    "sentenceId": 120
+  },
+  {
+    "id": 267,
+    "word": "gift",
+    "phonetic": "[ɡɪft]",
+    "meaning": "n. 礼物，赠品；天赋，才能",
+    "sentenceId": 36
+  },
+  {
+    "id": 268,
+    "word": "give",
+    "phonetic": "[ɡɪv]",
+    "meaning": "v. 给予；赠送；提供（过去式gave，过去分词given）",
+    "sentenceId": 200
+  },
+  {
+    "id": 269,
+    "word": "give up",
+    "phonetic": "[ɡɪv ʌp]",
+    "meaning": "短语：放弃；认输；交出",
+    "sentenceId": 59
+  },
+  {
+    "id": 270,
+    "word": "give up trying",
+    "phonetic": "[ɡɪv ʌp ˈtraɪɪŋ]",
+    "meaning": "短语：放弃尝试",
+    "sentenceId": 75
+  },
+  {
+    "id": 271,
+    "word": "go around",
+    "phonetic": "[ɡəʊ əˈraʊnd]",
+    "meaning": "短语：绕着……转；四处走动",
+    "sentenceId": 188
+  },
+  {
+    "id": 272,
+    "word": "go camping",
+    "phonetic": "[ɡəʊ ˈkæmpɪŋ]",
+    "meaning": "短语：去露营",
+    "sentenceId": 32
+  },
+  {
+    "id": 273,
+    "word": "go for a walk",
+    "phonetic": "[ɡəʊ fɔː ə wɔːk]",
+    "meaning": "短语：去散步",
+    "sentenceId": 66
+  },
+  {
+    "id": 274,
+    "word": "go hiking",
+    "phonetic": "[ɡəʊ ˈhaɪkɪŋ]",
+    "meaning": "短语：去徒步旅行；去远足",
+    "sentenceId": 134
+  },
+  {
+    "id": 275,
+    "word": "go to bed",
+    "phonetic": "[ɡəʊ tu bed]",
+    "meaning": "短语：上床睡觉",
+    "sentenceId": 183
+  },
+  {
+    "id": 276,
+    "word": "go to school",
+    "phonetic": "[ɡəʊ tu skuːl]",
+    "meaning": "短语：去上学；求学",
+    "sentenceId": 120
+  },
+  {
+    "id": 277,
+    "word": "good",
+    "phonetic": "[ɡʊd]",
+    "meaning": "a. 好的；优良的；有益的",
+    "sentenceId": 185
+  },
+  {
+    "id": 278,
+    "word": "good habit",
+    "phonetic": "[ɡʊd ˈhæbɪt]",
+    "meaning": "短语：好习惯",
+    "sentenceId": 70
+  },
+  {
+    "id": 279,
+    "word": "graduate",
+    "phonetic": "[ˈɡrædʒueɪt]",
+    "meaning": "v. 毕业；获得学位；n. 毕业生",
+    "sentenceId": 33
+  },
+  {
+    "id": 280,
+    "word": "grandpa",
+    "phonetic": "[ˈɡrænpɑː]",
+    "meaning": "n. 爷爷；外公（口语）",
+    "sentenceId": 111
+  },
+  {
+    "id": 281,
+    "word": "great",
+    "phonetic": "[ɡreɪt]",
+    "meaning": "a. 伟大的；极好的；大量的；重要的",
+    "sentenceId": 41
+  },
+  {
+    "id": 282,
+    "word": "greet",
+    "phonetic": "[ɡriːt]",
+    "meaning": "v. 问候；打招呼；迎接；致意",
+    "sentenceId": 143
+  },
+  {
+    "id": 283,
+    "word": "grow up",
+    "phonetic": "[ɡrəʊ ʌp]",
+    "meaning": "短语：长大；成长；成熟",
+    "sentenceId": 84
+  },
+  {
+    "id": 284,
+    "word": "guess",
+    "phonetic": "[ɡes]",
+    "meaning": "v. 猜测；猜想；n. 猜测；猜想",
+    "sentenceId": 85
+  },
+  {
+    "id": 285,
+    "word": "guest of honor",
+    "phonetic": "[ɡest ɒv ˈɒnə(r)]",
+    "meaning": "短语：荣誉嘉宾；主宾",
+    "sentenceId": 85
+  },
+  {
+    "id": 286,
+    "word": "guitar",
+    "phonetic": "[ɡɪˈtɑː(r)]",
+    "meaning": "n. 吉他；六弦琴",
+    "sentenceId": 123
+  },
+  {
+    "id": 287,
+    "word": "habit",
+    "phonetic": "[ˈhæbɪt]",
+    "meaning": "n. 习惯，习性；嗜好",
+    "sentenceId": 43
+  },
+  {
+    "id": 288,
+    "word": "had better+V原",
+    "phonetic": "[hæd ˈbetə + v]",
+    "meaning": "短语：最好....，表示建议",
+    "sentenceId": 13
+  },
+  {
+    "id": 289,
+    "word": "half",
+    "phonetic": "[ha:f]",
+    "meaning": "a. 一半的，半个的；n. 半，一半",
+    "sentenceId": 22
+  },
+  {
+    "id": 290,
+    "word": "hand in",
+    "phonetic": "[hænd ɪn]",
+    "meaning": "短语：上交，提交；呈送",
+    "sentenceId": 58
+  },
+  {
+    "id": 291,
+    "word": "happen",
+    "phonetic": "[ˈhæpən]",
+    "meaning": "vi. 发生；碰巧，恰好",
+    "sentenceId": 17
+  },
+  {
+    "id": 292,
+    "word": "hard",
+    "phonetic": "[hɑːd]",
+    "meaning": "a. 硬的；困难的；ad. 努力地；猛烈地",
+    "sentenceId": 59
+  },
+  {
+    "id": 293,
+    "word": "has been learning",
+    "phonetic": "[hæz biːn ˈlɜːnɪŋ]",
+    "meaning": "短语：一直在学习（现在完成进行时）",
+    "sentenceId": 198
+  },
+  {
+    "id": 294,
+    "word": "have been learning",
+    "phonetic": "[hæv bɪn ˈlɜːnɪŋ]",
+    "meaning": "短语：一直在学习（现在完成进行时）",
+    "sentenceId": 124
+  },
+  {
+    "id": 295,
+    "word": "have been to",
+    "phonetic": "[hæv biːn tuː]",
+    "meaning": "短语：去过（某地，已返回）",
+    "sentenceId": 56
+  },
+  {
+    "id": 296,
+    "word": "have learned",
+    "phonetic": "[hæv lɜːnd]",
+    "meaning": "短语：已经学过（learn的现在完成时）",
+    "sentenceId": 70
+  },
+  {
+    "id": 297,
+    "word": "have no idea",
+    "phonetic": "[hæv nəʊ aɪˈdɪə]",
+    "meaning": "短语：不知道；不清楚",
+    "sentenceId": 193
+  },
+  {
+    "id": 298,
+    "word": "have to",
+    "phonetic": "[hæv tu]",
+    "meaning": "短语：不得不；必须",
+    "sentenceId": 155
+  },
+  {
+    "id": 299,
+    "word": "have visited",
+    "phonetic": "[hæv ˈvɪzɪtɪd]",
+    "meaning": "短语：已经参观过（现在完成时）",
+    "sentenceId": 195
+  },
+  {
+    "id": 300,
+    "word": "health",
+    "phonetic": "[helθ]",
+    "meaning": "n. 健康，健康状况；卫生",
+    "sentenceId": 21
+  },
+  {
+    "id": 301,
+    "word": "healthier",
+    "phonetic": "[ˈhelθiə]",
+    "meaning": "a. 更健康的（healthy的比较级）",
+    "sentenceId": 192
+  },
+  {
+    "id": 302,
+    "word": "hear",
+    "phonetic": "[hɪə(r)]",
+    "meaning": "v. 听见；听到；听说；得知（过去式heard）",
+    "sentenceId": 149
+  },
+  {
+    "id": 303,
+    "word": "heavily",
+    "phonetic": "[ˈhevili]",
+    "meaning": "ad. 沉重地，猛烈地",
+    "sentenceId": 17
+  },
+  {
+    "id": 304,
+    "word": "heavy",
+    "phonetic": "[ˈhevɪ]",
+    "meaning": "a. 重的；繁重的；沉重的",
+    "sentenceId": 77
+  },
+  {
+    "id": 305,
+    "word": "help",
+    "phonetic": "[help]",
+    "meaning": "v. 帮助，援助；有助于；n. 帮助，援助",
+    "sentenceId": 73
+  },
+  {
+    "id": 306,
+    "word": "himself",
+    "phonetic": "[hɪmˈself]",
+    "meaning": "pron. 他自己；他亲自，他本人",
+    "sentenceId": 45
+  },
+  {
+    "id": 307,
+    "word": "history",
+    "phonetic": "[ˈhɪstri]",
+    "meaning": "n. 历史；历史学；发展史",
+    "sentenceId": 126
+  },
+  {
+    "id": 308,
+    "word": "homeless",
+    "phonetic": "[ˈhəʊmləs]",
+    "meaning": "a. 无家可归的；无家的",
+    "sentenceId": 97
+  },
+  {
+    "id": 309,
+    "word": "homework",
+    "phonetic": "[ˈhəʊmwɜːk]",
+    "meaning": "n. 家庭作业，课外作业",
+    "sentenceId": 51
+  },
+  {
+    "id": 310,
+    "word": "horrible",
+    "phonetic": "[ˈhɒrəbl]",
+    "meaning": "a. 可怕的；恐怖的；讨厌的",
+    "sentenceId": 97
+  },
+  {
+    "id": 311,
+    "word": "hospital",
+    "phonetic": "[ˈhɒspɪtl]",
+    "meaning": "n. 医院",
+    "sentenceId": 55
+  },
+  {
+    "id": 312,
+    "word": "hour",
+    "phonetic": [
+      "auə"
+    ],
+    "meaning": "n. 小时；钟头；课时；……点钟",
+    "sentenceId": 22
+  },
+  {
+    "id": 313,
+    "word": "how",
+    "phonetic": "[haʊ]",
+    "meaning": "adv. 怎样，如何；多么；多少",
+    "sentenceId": 62
+  },
+  {
+    "id": 314,
+    "word": "how to do sth",
+    "phonetic": "[haʊ tu duː sth]",
+    "meaning": "短语：如何做某事",
+    "sentenceId": 178
+  },
+  {
+    "id": 315,
+    "word": "hundreds of",
+    "phonetic": "[ˈhʌndrədz ɒv]",
+    "meaning": "短语：数百；成百上千的",
+    "sentenceId": 167
+  },
+  {
+    "id": 316,
+    "word": "ice-cream",
+    "phonetic": "[ˈaɪs kriːm]",
+    "meaning": "n. 冰淇淋",
+    "sentenceId": 102
+  },
+  {
+    "id": 317,
+    "word": "if",
+    "phonetic": "[ɪf]",
+    "meaning": "conj. 如果，假如；是否；即使",
+    "sentenceId": 72
+  },
+  {
+    "id": 318,
+    "word": "immediately",
+    "phonetic": "[iˈmi:diətli]",
+    "meaning": "ad. 立即，马上",
+    "sentenceId": 15
+  },
+  {
+    "id": 319,
+    "word": "important",
+    "phonetic": "[ɪmˈpɔːtnt]",
+    "meaning": "a. 重要的，重大的；有地位的",
+    "sentenceId": 43
+  },
+  {
+    "id": 320,
+    "word": "impossible",
+    "phonetic": "[ɪmˈpɒsəbl]",
+    "meaning": "a. 不可能的；难以忍受的；不可能存在的",
+    "sentenceId": 85
+  },
+  {
+    "id": 321,
+    "word": "improve",
+    "phonetic": "[imˈpru:v]",
+    "meaning": "vt. 改进，改善；v. 改善，变得更好",
+    "sentenceId": 16
+  },
+  {
+    "id": 322,
+    "word": "in a hurry",
+    "phonetic": "[ɪn ə ˈhʌri]",
+    "meaning": "短语：匆忙地；急于",
+    "sentenceId": 102
+  },
+  {
+    "id": 323,
+    "word": "in addition",
+    "phonetic": "[ɪn əˈdɪʃn]",
+    "meaning": "短语：此外；另外",
+    "sentenceId": 95
+  },
+  {
+    "id": 324,
+    "word": "in case of",
+    "phonetic": "[ɪn keɪs ɒv]",
+    "meaning": "短语：万一；假如；以防",
+    "sentenceId": 119
+  },
+  {
+    "id": 325,
+    "word": "in English",
+    "phonetic": "[ɪn ˈɪŋɡlɪʃ]",
+    "meaning": "短语：用英语",
+    "sentenceId": 124
+  },
+  {
+    "id": 326,
+    "word": "in front of",
+    "phonetic": "[ɪn frʌnt ɒv]",
+    "meaning": "短语：在……前面",
+    "sentenceId": 100
+  },
+  {
+    "id": 327,
+    "word": "in order to",
+    "phonetic": "[ɪn ˈɔːdə tuː]",
+    "meaning": "短语：为了，以便",
+    "sentenceId": 65
+  },
+  {
+    "id": 328,
+    "word": "in time",
+    "phonetic": "[in taim]",
+    "meaning": "短语：及时",
+    "sentenceId": 9
+  },
+  {
+    "id": 329,
+    "word": "in trouble",
+    "phonetic": "[ɪn ˈtrʌbl]",
+    "meaning": "短语：处于困境中；有麻烦",
+    "sentenceId": 84
+  },
+  {
+    "id": 330,
+    "word": "independent",
+    "phonetic": "[ˌɪndɪˈpendənt]",
+    "meaning": "a. 独立的；自主的；不受约束的",
+    "sentenceId": 84
+  },
+  {
+    "id": 331,
+    "word": "instead of",
+    "phonetic": "[ɪnˈsted ɒv]",
+    "meaning": "短语：代替；而不是",
+    "sentenceId": 112
+  },
+  {
+    "id": 332,
+    "word": "interesting",
+    "phonetic": "[ˈintrəstiŋ]",
+    "meaning": "a. 有趣的，有意思的",
+    "sentenceId": 25
+  },
+  {
+    "id": 333,
+    "word": "Internet",
+    "phonetic": "[ˈɪntənet]",
+    "meaning": "n. 互联网；因特网；国际互联网",
+    "sentenceId": 140
+  },
+  {
+    "id": 334,
+    "word": "Internet bar",
+    "phonetic": "[ˈɪntənet bɑː(r)]",
+    "meaning": "短语：网吧",
+    "sentenceId": 89
+  },
+  {
+    "id": 335,
+    "word": "interview",
+    "phonetic": "[ˈɪntəvjuː]",
+    "meaning": "n. 采访；面试；v. 采访；面试",
+    "sentenceId": 103
+  },
+  {
+    "id": 336,
+    "word": "into",
+    "phonetic": "[ˈɪntuː]",
+    "meaning": "prep. 到……里面；成为；转化为",
+    "sentenceId": 184
+  },
+  {
+    "id": 337,
+    "word": "introduce",
+    "phonetic": "[ˌɪntrəˈdjuːs]",
+    "meaning": "v. 介绍；引进；提出",
+    "sentenceId": 76
+  },
+  {
+    "id": 338,
+    "word": "invent",
+    "phonetic": "[ɪnˈvent]",
+    "meaning": "vt. 发明，创造",
+    "sentenceId": 6
+  },
+  {
+    "id": 339,
+    "word": "inventor",
+    "phonetic": "[ɪnˈventə(r)]",
+    "meaning": "n. 发明家；创造者；发明者",
+    "sentenceId": 94
+  },
+  {
+    "id": 340,
+    "word": "invite",
+    "phonetic": "[inˈvait]",
+    "meaning": "vt. 邀请",
+    "sentenceId": 19
+  },
+  {
+    "id": 341,
+    "word": "It is known to all that",
+    "phonetic": "[ɪt ɪz nəʊn tu ɔːl ðæt]",
+    "meaning": "短语：众所周知；大家都知道",
+    "sentenceId": 99
+  },
+  {
+    "id": 342,
+    "word": "it is reported that",
+    "phonetic": "[ɪt ɪz rɪˈpɔːtɪd ðæt]",
+    "meaning": "短语：据报道；据称",
+    "sentenceId": 147
+  },
+  {
+    "id": 343,
+    "word": "it is said that",
+    "phonetic": "[ɪt ɪz sed ðæt]",
+    "meaning": "短语：据说；据称",
+    "sentenceId": 129
+  },
+  {
+    "id": 344,
+    "word": "it is time for sth",
+    "phonetic": "[ɪt ɪz taɪm fɔː sth]",
+    "meaning": "短语：该做某事了",
+    "sentenceId": 164
+  },
+  {
+    "id": 345,
+    "word": "journey",
+    "phonetic": "[ˈdʒɜːni]",
+    "meaning": "n. 旅行；行程；v. 旅行",
+    "sentenceId": 110
+  },
+  {
+    "id": 346,
+    "word": "jump",
+    "phonetic": "[dʒʌmp]",
+    "meaning": "v. 跳；跳跃；跳过；n. 跳；跃；跳跃",
+    "sentenceId": 128
+  },
+  {
+    "id": 347,
+    "word": "junk food",
+    "phonetic": "[dʒʌŋk fuːd]",
+    "meaning": "短语：垃圾食品",
+    "sentenceId": 112
+  },
+  {
+    "id": 348,
+    "word": "keen",
+    "phonetic": "[ki:n]",
+    "meaning": "a. 热切的；热情的；热心的",
+    "sentenceId": 7
+  },
+  {
+    "id": 349,
+    "word": "keep",
+    "phonetic": "[ki:p]",
+    "meaning": "v. 保持；保存；继续；饲养",
+    "sentenceId": 21
+  },
+  {
+    "id": 350,
+    "word": "keep healthy",
+    "phonetic": "[kiːp ˈhelθi]",
+    "meaning": "短语：保持健康",
+    "sentenceId": 65
+  },
+  {
+    "id": 351,
+    "word": "kind",
+    "phonetic": "[kaɪnd]",
+    "meaning": "a. 善良的；友好的；n. 种类",
+    "sentenceId": 9
+  },
+  {
+    "id": 352,
+    "word": "knife and fork",
+    "phonetic": "[naɪf ənd fɔːk]",
+    "meaning": "短语：刀叉",
+    "sentenceId": 81
+  },
+  {
+    "id": 353,
+    "word": "knowledge",
+    "phonetic": "[ˈnɔlidʒ]",
+    "meaning": "n. 知识，学问；知道，了解",
+    "sentenceId": 16
+  },
+  {
+    "id": 354,
+    "word": "language",
+    "phonetic": "[ˈlæŋɡwɪdʒ]",
+    "meaning": "n. 语言；语种；措辞",
+    "sentenceId": 184
+  },
+  {
+    "id": 355,
+    "word": "lantern",
+    "phonetic": "[ˈlæntən]",
+    "meaning": "n. 灯笼；提灯；灯塔",
+    "sentenceId": 104
+  },
+  {
+    "id": 356,
+    "word": "larger",
+    "phonetic": "[ˈlɑːdʒə(r)]",
+    "meaning": "a. 更大的（large的比较级）",
+    "sentenceId": 31
+  },
+  {
+    "id": 357,
+    "word": "last",
+    "phonetic": "[lɑːst]",
+    "meaning": "a. 最后的；最近的；v. 持续，延续",
+    "sentenceId": 39
+  },
+  {
+    "id": 358,
+    "word": "last month",
+    "phonetic": "[lɑːst mʌnθ]",
+    "meaning": "短语：上个月",
+    "sentenceId": 61
+  },
+  {
+    "id": 359,
+    "word": "last night",
+    "phonetic": "[lɑːst naɪt]",
+    "meaning": "短语：昨晚",
+    "sentenceId": 51
+  },
+  {
+    "id": 360,
+    "word": "late",
+    "phonetic": "[leɪt]",
+    "meaning": "a. 迟的，晚的；ad. 迟，晚；最近",
+    "sentenceId": 57
+  },
+  {
+    "id": 361,
+    "word": "leader",
+    "phonetic": "[ˈli:də]",
+    "meaning": "n. 领袖，领导者",
+    "sentenceId": 17
+  },
+  {
+    "id": 362,
+    "word": "learn",
+    "phonetic": "[lə:n]",
+    "meaning": "v. 学，学习；学会",
+    "sentenceId": 22
+  },
+  {
+    "id": 363,
+    "word": "learn to do sth",
+    "phonetic": "[lɜːn tu duː sth]",
+    "meaning": "短语：学会做某事",
+    "sentenceId": 166
+  },
+  {
+    "id": 364,
+    "word": "learning",
+    "phonetic": "[ˈlɜːnɪŋ]",
+    "meaning": "n. 学习；学问；v. 学习（learn的现在分词）",
+    "sentenceId": 173
+  },
+  {
+    "id": 365,
+    "word": "leave",
+    "phonetic": "[li:v]",
+    "meaning": "v. 离开；把……留下，剩下",
+    "sentenceId": 24
+  },
+  {
+    "id": 366,
+    "word": "lecture",
+    "phonetic": "[ˈlektʃə(r)]",
+    "meaning": "n. 讲座；演讲；教训；v. 演讲；教训",
+    "sentenceId": 94
+  },
+  {
+    "id": 367,
+    "word": "lend",
+    "phonetic": "[lend]",
+    "meaning": "vt. 把……借给；贷（款）",
+    "sentenceId": 4
+  },
+  {
+    "id": 368,
+    "word": "less",
+    "phonetic": "[les]",
+    "meaning": "a./ad. 更少（小）的（地）（little的比较级）",
+    "sentenceId": 8
+  },
+  {
+    "id": 369,
+    "word": "let's",
+    "phonetic": "[lets]",
+    "meaning": "缩写：let us（让我们）",
+    "sentenceId": 66
+  },
+  {
+    "id": 370,
+    "word": "library",
+    "phonetic": "[ˈlaɪbrəri]",
+    "meaning": "n. 图书馆，藏书室；藏书",
+    "sentenceId": 38
+  },
+  {
+    "id": 371,
+    "word": "lie down",
+    "phonetic": "[laɪ daʊn]",
+    "meaning": "短语：躺下；平卧",
+    "sentenceId": 174
+  },
+  {
+    "id": 372,
+    "word": "life",
+    "phonetic": "[laif]",
+    "meaning": "n. 生命；生活；人生",
+    "sentenceId": 25
+  },
+  {
+    "id": 373,
+    "word": "lift",
+    "phonetic": "[lɪft]",
+    "meaning": "v. 举起；提升；n. 电梯；举起",
+    "sentenceId": 77
+  },
+  {
+    "id": 374,
+    "word": "like",
+    "phonetic": "[laɪk]",
+    "meaning": "v. 喜欢，喜爱；prep. 像，如同；n. 爱好",
+    "sentenceId": 46
+  },
+  {
+    "id": 375,
+    "word": "listen to",
+    "phonetic": "[ˈlɪsn tuː]",
+    "meaning": "短语：听，倾听",
+    "sentenceId": 60
+  },
+  {
+    "id": 376,
+    "word": "listening skills",
+    "phonetic": "[ˈlɪsnɪŋ skɪlz]",
+    "meaning": "短语：听力技能；听力水平",
+    "sentenceId": 176
+  },
+  {
+    "id": 377,
+    "word": "live",
+    "phonetic": "[liv]",
+    "meaning": "v. 居住；生活；活着",
+    "sentenceId": 23
+  },
+  {
+    "id": 378,
+    "word": "living habits",
+    "phonetic": "[ˈlɪvɪŋ ˈhæbɪts]",
+    "meaning": "短语：生活习惯；生活习性",
+    "sentenceId": 185
+  },
+  {
+    "id": 379,
+    "word": "living things",
+    "phonetic": "[ˈlɪvɪŋ θɪŋz]",
+    "meaning": "短语：生物；生命体",
+    "sentenceId": 189
+  },
+  {
+    "id": 380,
+    "word": "local",
+    "phonetic": "[ˈləʊkl]",
+    "meaning": "a. 当地的；局部的；n. 当地人",
+    "sentenceId": 87
+  },
+  {
+    "id": 381,
+    "word": "look forward to",
+    "phonetic": "[lʊk ˈfɔːwəd tu]",
+    "meaning": "短语：期待；盼望；期盼",
+    "sentenceId": 137
+  },
+  {
+    "id": 382,
+    "word": "look like",
+    "phonetic": "[luk laik]",
+    "meaning": "短语：看起来像......",
+    "sentenceId": 18
+  },
+  {
+    "id": 383,
+    "word": "look up",
+    "phonetic": "[luk ʌp]",
+    "meaning": "短语：查（字典）",
+    "sentenceId": 13
+  },
+  {
+    "id": 384,
+    "word": "lose",
+    "phonetic": "[lu:z]",
+    "meaning": "v. 丢失；迷失；输，损失",
+    "sentenceId": 8
+  },
+  {
+    "id": 385,
+    "word": "lucky",
+    "phonetic": "[ˈlʌki]",
+    "meaning": "a. 幸运的",
+    "sentenceId": 14
+  },
+  {
+    "id": 386,
+    "word": "luggage",
+    "phonetic": "[ˈlʌɡɪdʒ]",
+    "meaning": "n. 行李；行装",
+    "sentenceId": 80
+  },
+  {
+    "id": 387,
+    "word": "magazine",
+    "phonetic": "[ˌmæɡəˈziːn]",
+    "meaning": "n. 杂志；期刊；弹药库",
+    "sentenceId": 110
+  },
+  {
+    "id": 388,
+    "word": "make",
+    "phonetic": "[meɪk]",
+    "meaning": "v. 做，制作；使，让；整理",
+    "sentenceId": 37
+  },
+  {
+    "id": 389,
+    "word": "make full use of",
+    "phonetic": "[meɪk fʊl juːz ɒv]",
+    "meaning": "短语：充分利用；充分使用",
+    "sentenceId": 145
+  },
+  {
+    "id": 390,
+    "word": "make progress",
+    "phonetic": "[meɪk ˈprəʊɡres]",
+    "meaning": "短语：取得进步，进展",
+    "sentenceId": 41
+  },
+  {
+    "id": 391,
+    "word": "manager",
+    "phonetic": "[ˈmænidʒə]",
+    "meaning": "n. 经理，管理人；经纪人",
+    "sentenceId": 19
+  },
+  {
+    "id": 392,
+    "word": "marry",
+    "phonetic": "[ˈmæri]",
+    "meaning": "v. 结婚；嫁；娶；与……结婚",
+    "sentenceId": 83
+  },
+  {
+    "id": 393,
+    "word": "math",
+    "phonetic": "[mæθ]",
+    "meaning": "n. 数学（=mathematics）",
+    "sentenceId": 69
+  },
+  {
+    "id": 394,
+    "word": "meal",
+    "phonetic": "[mi:l]",
+    "meaning": "n. 一餐，一顿饭；膳食",
+    "sentenceId": 21
+  },
+  {
+    "id": 395,
+    "word": "meaning",
+    "phonetic": "[ˈmiːnɪŋ]",
+    "meaning": "n. 意思，含义；意义，价值",
+    "sentenceId": 42
+  },
+  {
+    "id": 396,
+    "word": "meaningful",
+    "phonetic": "[ˈmiːnɪŋfl]",
+    "meaning": "a. 有意义的；意味深长的；有目的的",
+    "sentenceId": 150
+  },
+  {
+    "id": 397,
+    "word": "medicine",
+    "phonetic": "[ˈmedsn]",
+    "meaning": "n. 医学；医药，良药",
+    "sentenceId": 6
+  },
+  {
+    "id": 398,
+    "word": "meet",
+    "phonetic": "[miːt]",
+    "meaning": "v. 遇见；相逢；会面；满足（过去式met）",
+    "sentenceId": 143
+  },
+  {
+    "id": 399,
+    "word": "member",
+    "phonetic": "[ˈmembə]",
+    "meaning": "n. 成员，会员",
+    "sentenceId": 10
+  },
+  {
+    "id": 400,
+    "word": "memory",
+    "phonetic": "[ˈmeməri]",
+    "meaning": "n. 记忆；回忆；记忆力",
+    "sentenceId": 90
+  },
+  {
+    "id": 401,
+    "word": "menu",
+    "phonetic": "[ˈmenjuː]",
+    "meaning": "n. 菜单；菜肴",
+    "sentenceId": 78
+  },
+  {
+    "id": 402,
+    "word": "might",
+    "phonetic": "[mait]",
+    "meaning": "情态动词.[may的过去式] 可能",
+    "sentenceId": 17
+  },
+  {
+    "id": 403,
+    "word": "million",
+    "phonetic": "[ˈmɪljən]",
+    "meaning": "num. 百万；百万个；n. 百万；百万富翁",
+    "sentenceId": 99
+  },
+  {
+    "id": 404,
+    "word": "mind",
+    "phonetic": "[maɪnd]",
+    "meaning": "v. 介意；在意；照料；n. 头脑；想法；介意",
+    "sentenceId": 63
+  },
+  {
+    "id": 405,
+    "word": "mine",
+    "phonetic": "[maɪn]",
+    "meaning": "pron. 我的（名词性物主代词）",
+    "sentenceId": 152
+  },
+  {
+    "id": 406,
+    "word": "minute",
+    "phonetic": "[ˈmɪnɪt]",
+    "meaning": "n. 分钟；片刻；[pl.] 会议记录",
+    "sentenceId": 27
+  },
+  {
+    "id": 407,
+    "word": "miss",
+    "phonetic": "[mɪs]",
+    "meaning": "v. 错过；想念；未击中；n. 小姐",
+    "sentenceId": 57
+  },
+  {
+    "id": 408,
+    "word": "mistake",
+    "phonetic": "[misˈteik]",
+    "meaning": "n. 错误，过失；vt. 误解，弄错；误认为",
+    "sentenceId": 15
+  },
+  {
+    "id": 409,
+    "word": "monitor",
+    "phonetic": "[ˈmɒnɪtə(r)]",
+    "meaning": "n. 班长；监视器；v. 监控",
+    "sentenceId": 76
+  },
+  {
+    "id": 410,
+    "word": "moon",
+    "phonetic": "[muːn]",
+    "meaning": "n. 月亮，月球；月光；v. 闲荡，出神",
+    "sentenceId": 68
+  },
+  {
+    "id": 411,
+    "word": "more",
+    "phonetic": "[mɔː(r)]",
+    "meaning": "a. 更多的；ad. 更；n. 更多",
+    "sentenceId": 29
+  },
+  {
+    "id": 412,
+    "word": "more than",
+    "phonetic": "[mɔː ðæn]",
+    "meaning": "短语：超过，多于；不仅仅",
+    "sentenceId": 61
+  },
+  {
+    "id": 413,
+    "word": "morning",
+    "phonetic": "[ˈmɔ:niŋ]",
+    "meaning": "n. 早晨，上午",
+    "sentenceId": 22
+  },
+  {
+    "id": 414,
+    "word": "most interesting",
+    "phonetic": "[məʊst ˈɪntrəstɪŋ]",
+    "meaning": "短语：最有趣的（interesting的最高级）",
+    "sentenceId": 64
+  },
+  {
+    "id": 415,
+    "word": "mother",
+    "phonetic": "[ˈmʌðə(r)]",
+    "meaning": "n. 母亲，妈妈；根源",
+    "sentenceId": 53
+  },
+  {
+    "id": 416,
+    "word": "mountain",
+    "phonetic": "[ˈmaʊntən]",
+    "meaning": "n. 山，山岳；山脉",
+    "sentenceId": 32
+  },
+  {
+    "id": 417,
+    "word": "move",
+    "phonetic": "[muːv]",
+    "meaning": "v. 移动；搬迁；感动；n. 移动；行动",
+    "sentenceId": 76
+  },
+  {
+    "id": 418,
+    "word": "movie",
+    "phonetic": "[ˈmuːvi]",
+    "meaning": "n. 电影，影片",
+    "sentenceId": 40
+  },
+  {
+    "id": 419,
+    "word": "moving",
+    "phonetic": "[ˈmuːvɪŋ]",
+    "meaning": "a. 感人的；动人的；令人感动的（修饰物）",
+    "sentenceId": 149
+  },
+  {
+    "id": 420,
+    "word": "museum",
+    "phonetic": "[mjuˈziəm]",
+    "meaning": "n. 博物馆",
+    "sentenceId": 20
+  },
+  {
+    "id": 421,
+    "word": "music",
+    "phonetic": "[ˈmjuːzɪk]",
+    "meaning": "n. 音乐，乐曲；乐谱；音乐艺术",
+    "sentenceId": 60
+  },
+  {
+    "id": 422,
+    "word": "must",
+    "phonetic": "[mʌst]",
+    "meaning": "modal v. 必须；应当；一定",
+    "sentenceId": 196
+  },
+  {
+    "id": 423,
+    "word": "narrow",
+    "phonetic": "[ˈnærəʊ]",
+    "meaning": "a. 狭窄的；有限的；狭隘的；v. 使变窄",
+    "sentenceId": 87
+  },
+  {
+    "id": 424,
+    "word": "National Day",
+    "phonetic": "[ˈnæʃnəl deɪ]",
+    "meaning": "短语：国庆节",
+    "sentenceId": 107
+  },
+  {
+    "id": 425,
+    "word": "nearby",
+    "phonetic": "['niəbai]",
+    "meaning": "a. 在附近的，位于附近的；ad. 附近地，不远地",
+    "sentenceId": 1
+  },
+  {
+    "id": 426,
+    "word": "nearest",
+    "phonetic": "[ˈniərist]",
+    "meaning": "a. 最近的（near的最高级）",
+    "sentenceId": 26
+  },
+  {
+    "id": 427,
+    "word": "necessary",
+    "phonetic": "[ˈnesəsəri]",
+    "meaning": "a. 必要的，必需的；必然的",
+    "sentenceId": 28
+  },
+  {
+    "id": 428,
+    "word": "neighborhood",
+    "phonetic": "[ˈneɪbəhʊd]",
+    "meaning": "n. 街区，街坊；附近，周边地区",
+    "sentenceId": 52
+  },
+  {
+    "id": 429,
+    "word": "never",
+    "phonetic": "[ˈnevə(r)]",
+    "meaning": "ad. 从不，从未；绝不，一点也不",
+    "sentenceId": 40
+  },
+  {
+    "id": 430,
+    "word": "new",
+    "phonetic": "[njuː]",
+    "meaning": "a. 新的，新近的；陌生的；n. 新东西",
+    "sentenceId": 52
+  },
+  {
+    "id": 431,
+    "word": "news",
+    "phonetic": "[njuːz]",
+    "meaning": "n. 新闻；消息（不可数）",
+    "sentenceId": 176
+  },
+  {
+    "id": 432,
+    "word": "newspaper",
+    "phonetic": "[ˈnju:sˌpeipə]",
+    "meaning": "n. 报纸",
+    "sentenceId": 13
+  },
+  {
+    "id": 433,
+    "word": "next",
+    "phonetic": "[nekst]",
+    "meaning": "a. 下一个的；紧接着的；adv. 接下来；然后",
+    "sentenceId": 193
+  },
+  {
+    "id": 434,
+    "word": "next month",
+    "phonetic": "[nekst mʌnθ]",
+    "meaning": "短语：下个月",
+    "sentenceId": 56
+  },
+  {
+    "id": 435,
+    "word": "next year",
+    "phonetic": "[nekst jɪə(r)]",
+    "meaning": "短语：明年",
+    "sentenceId": 52
+  },
+  {
+    "id": 436,
+    "word": "no matter how",
+    "phonetic": "[nəʊ ˈmætə haʊ]",
+    "meaning": "短语：无论怎样，不管多么",
+    "sentenceId": 59
+  },
+  {
+    "id": 437,
+    "word": "no one",
+    "phonetic": "[nəʊ wʌn]",
+    "meaning": "pron. 没有人；无人",
+    "sentenceId": 157
+  },
+  {
+    "id": 438,
+    "word": "noise",
+    "phonetic": "[nɔiz]",
+    "meaning": "n. 响声；喧哗声，噪声",
+    "sentenceId": 12
+  },
+  {
+    "id": 439,
+    "word": "not only...but also...",
+    "phonetic": "[nɒt ˈəʊnli bʌt ˈɔːlsəʊ]",
+    "meaning": "短语：不仅……而且……",
+    "sentenceId": 71
+  },
+  {
+    "id": 440,
+    "word": "not...until...",
+    "phonetic": "[nɒt ənˈtɪl]",
+    "meaning": "短语：直到……才……",
+    "sentenceId": 142
+  },
+  {
+    "id": 441,
+    "word": "notice",
+    "phonetic": "[ˈnəʊtɪs]",
+    "meaning": "v. 注意到；通知；n. 通知；注意",
+    "sentenceId": 89
+  },
+  {
+    "id": 442,
+    "word": "novel",
+    "phonetic": "[ˈnɔvəl]",
+    "meaning": "n. （长篇）小说；a. 新颖的",
+    "sentenceId": 13
+  },
+  {
+    "id": 443,
+    "word": "now",
+    "phonetic": "[naʊ]",
+    "meaning": "adv. 现在；如今；此刻",
+    "sentenceId": 198
+  },
+  {
+    "id": 444,
+    "word": "nowadays",
+    "phonetic": "[ˈnaʊədeɪz]",
+    "meaning": "ad. 现今，现在",
+    "sentenceId": 11
+  },
+  {
+    "id": 445,
+    "word": "number",
+    "phonetic": "[ˈnʌmbə]",
+    "meaning": "n. 数字；号码",
+    "sentenceId": 14
+  },
+  {
+    "id": 446,
+    "word": "observe",
+    "phonetic": "[əbˈzɜːv]",
+    "meaning": "v. 观察；注意到；遵守",
+    "sentenceId": 104
+  },
+  {
+    "id": 447,
+    "word": "offer",
+    "phonetic": "[ˈɒfə(r)]",
+    "meaning": "v. 提供；给予；提议；n. 提议；出价",
+    "sentenceId": 102
+  },
+  {
+    "id": 448,
+    "word": "old",
+    "phonetic": "[əuld]",
+    "meaning": "a. 老的，旧的；……岁的",
+    "sentenceId": 23
+  },
+  {
+    "id": 449,
+    "word": "old man",
+    "phonetic": "[əʊld mæn]",
+    "meaning": "短语：老人，老大爷",
+    "sentenceId": 73
+  },
+  {
+    "id": 450,
+    "word": "Olympics",
+    "phonetic": "[əˈlɪmpɪks]",
+    "meaning": "n. 奥林匹克运动会",
+    "sentenceId": 82
+  },
+  {
+    "id": 451,
+    "word": "on",
+    "phonetic": "[ɒn]",
+    "meaning": "prep. 在...上；关于；ad. 穿着；上演；持续",
+    "sentenceId": 27
+  },
+  {
+    "id": 452,
+    "word": "on time",
+    "phonetic": "[ɒn taɪm]",
+    "meaning": "短语：按时，准时",
+    "sentenceId": 58
+  },
+  {
+    "id": 453,
+    "word": "one",
+    "phonetic": "[wʌn]",
+    "meaning": "num. 一；pron. 一个（人/物）",
+    "sentenceId": 31
+  },
+  {
+    "id": 454,
+    "word": "one day",
+    "phonetic": "[wʌn deɪ]",
+    "meaning": "短语：有一天，总有一天；某一天",
+    "sentenceId": 68
+  },
+  {
+    "id": 455,
+    "word": "only by",
+    "phonetic": "[ˈəʊnli baɪ]",
+    "meaning": "短语：只有通过",
+    "sentenceId": 150
+  },
+  {
+    "id": 456,
+    "word": "open to the public",
+    "phonetic": "[ˈəʊpən tu ðə ˈpʌblɪk]",
+    "meaning": "短语：向公众开放",
+    "sentenceId": 96
+  },
+  {
+    "id": 457,
+    "word": "operate",
+    "phonetic": "[ˈɔpəreit]",
+    "meaning": "vi. 运转；动手术；起作用；vt. 操作；经营",
+    "sentenceId": 15
+  },
+  {
+    "id": 458,
+    "word": "opinion",
+    "phonetic": "[əˈpɪnjən]",
+    "meaning": "n. 意见；看法；主张",
+    "sentenceId": 78
+  },
+  {
+    "id": 459,
+    "word": "oral",
+    "phonetic": "[ˈɔːrəl]",
+    "meaning": "a. 口头的，口述的；口服的",
+    "sentenceId": 29
+  },
+  {
+    "id": 460,
+    "word": "organize",
+    "phonetic": "[ˈɔːɡənaɪz]",
+    "meaning": "v. 组织；安排；整理",
+    "sentenceId": 81
+  },
+  {
+    "id": 461,
+    "word": "ourselves",
+    "phonetic": "[ˌaʊəˈselvz]",
+    "meaning": "pron. 我们自己；亲自；我们本人",
+    "sentenceId": 145
+  },
+  {
+    "id": 462,
+    "word": "out of control",
+    "phonetic": "[aʊt ɒv kənˈtrəʊl]",
+    "meaning": "短语：失控；失去控制",
+    "sentenceId": 88
+  },
+  {
+    "id": 463,
+    "word": "outdoor",
+    "phonetic": "[ˈaʊtdɔː(r)]",
+    "meaning": "a. 户外的，露天的；n. 户外活动",
+    "sentenceId": 54
+  },
+  {
+    "id": 464,
+    "word": "overcome",
+    "phonetic": "[ˌəʊvəˈkʌm]",
+    "meaning": "v. 克服；战胜；压倒；征服（过去式overcame，过去分词overcome）",
+    "sentenceId": 135
+  },
+  {
+    "id": 465,
+    "word": "paint",
+    "phonetic": "[peɪnt]",
+    "meaning": "v. 油漆；绘画；n. 油漆；颜料",
+    "sentenceId": 79
+  },
+  {
+    "id": 466,
+    "word": "parent",
+    "phonetic": "[ˈpeərənt]",
+    "meaning": "n. 父亲或母亲；双亲（parents）",
+    "sentenceId": 71
+  },
+  {
+    "id": 467,
+    "word": "park",
+    "phonetic": "[pɑːk]",
+    "meaning": "n. 公园；停车场；v. 停放（车辆等）",
+    "sentenceId": 47
+  },
+  {
+    "id": 468,
+    "word": "party",
+    "phonetic": "[ˈpɑːti]",
+    "meaning": "n. 聚会，派对；政党，党派",
+    "sentenceId": 35
+  },
+  {
+    "id": 469,
+    "word": "pass away",
+    "phonetic": "[pa:s əˈwei]",
+    "meaning": "短语：去世，逝世",
+    "sentenceId": 23
+  },
+  {
+    "id": 470,
+    "word": "patient",
+    "phonetic": "[ˈpeiʃənt]",
+    "meaning": "a. 忍耐的，有耐心的；n. 病人",
+    "sentenceId": 15
+  },
+  {
+    "id": 471,
+    "word": "pay",
+    "phonetic": "[peɪ]",
+    "meaning": "v. 付款；给予（注意等）；付出代价",
+    "sentenceId": 11
+  },
+  {
+    "id": 472,
+    "word": "pay attention to",
+    "phonetic": "[peɪ əˈtenʃn tu]",
+    "meaning": "短语：注意；重视；关注",
+    "sentenceId": 141
+  },
+  {
+    "id": 473,
+    "word": "perform",
+    "phonetic": "[pəˈfɔ:m]",
+    "meaning": "v. 做，履行，完成；演出，表演",
+    "sentenceId": 10
+  },
+  {
+    "id": 474,
+    "word": "physics",
+    "phonetic": "[ˈfɪzɪks]",
+    "meaning": "n. 物理学",
+    "sentenceId": 7
+  },
+  {
+    "id": 475,
+    "word": "piano",
+    "phonetic": "[piˈænəʊ]",
+    "meaning": "n. 钢琴；adj. 钢琴的",
+    "sentenceId": 123
+  },
+  {
+    "id": 476,
+    "word": "picnic",
+    "phonetic": "[ˈpɪknɪk]",
+    "meaning": "n. 野餐，野餐活动；v. 去野餐",
+    "sentenceId": 47
+  },
+  {
+    "id": 477,
+    "word": "pill",
+    "phonetic": "[pil]",
+    "meaning": "n. 药片",
+    "sentenceId": 15
+  },
+  {
+    "id": 478,
+    "word": "pilot",
+    "phonetic": "[ˈpaɪlət]",
+    "meaning": "n. 飞行员；领航员；v. 驾驶；领航",
+    "sentenceId": 88
+  },
+  {
+    "id": 479,
+    "word": "plan",
+    "phonetic": "[plæn]",
+    "meaning": "n. 计划；打算；vt.&vi. 计划，打算",
+    "sentenceId": 3
+  },
+  {
+    "id": 480,
+    "word": "plane",
+    "phonetic": "[pleɪn]",
+    "meaning": "n. 飞机；平面；v. 计划；打算",
+    "sentenceId": 190
+  },
+  {
+    "id": 481,
+    "word": "plant",
+    "phonetic": "[plɑːnt]",
+    "meaning": "v. 种植，栽种；放置；n. 植物，草木",
+    "sentenceId": 37
+  },
+  {
+    "id": 482,
+    "word": "plastic",
+    "phonetic": "[ˈplæstik]",
+    "meaning": "n. [pl] 塑料（制品）；a. 塑料的",
+    "sentenceId": 11
+  },
+  {
+    "id": 483,
+    "word": "play",
+    "phonetic": "[pleɪ]",
+    "meaning": "v. 玩，玩耍；演奏；打（球）；n. 游戏，戏剧",
+    "sentenceId": 46
+  },
+  {
+    "id": 484,
+    "word": "play basketball",
+    "phonetic": "[pleɪ ˈbɑːskɪtbɔːl]",
+    "meaning": "短语：打篮球",
+    "sentenceId": 181
+  },
+  {
+    "id": 485,
+    "word": "play table tennis",
+    "phonetic": "[pleɪ ˈteɪbl tenɪs]",
+    "meaning": "短语：打乒乓球",
+    "sentenceId": 71
+  },
+  {
+    "id": 486,
+    "word": "playground",
+    "phonetic": "[ˈpleɪɡraʊnd]",
+    "meaning": "n. 操场；游乐场",
+    "sentenceId": 114
+  },
+  {
+    "id": 487,
+    "word": "please",
+    "phonetic": "[pliːz]",
+    "meaning": "int. 请；v. 使高兴，使满意",
+    "sentenceId": 55
+  },
+  {
+    "id": 488,
+    "word": "plenty of",
+    "phonetic": "[ˈplenti ɒf]",
+    "meaning": "短语：许多；大量的",
+    "sentenceId": 96
+  },
+  {
+    "id": 489,
+    "word": "polite",
+    "phonetic": "[pəˈlaɪt]",
+    "meaning": "a. 有礼貌的，客气的；文雅的",
+    "sentenceId": 34
+  },
+  {
+    "id": 490,
+    "word": "politely",
+    "phonetic": "[pəˈlaɪtli]",
+    "meaning": "adv. 礼貌地；客气地；文雅地",
+    "sentenceId": 178
+  },
+  {
+    "id": 491,
+    "word": "pollute",
+    "phonetic": "[pəˈluːt]",
+    "meaning": "v. 污染；弄脏；玷污",
+    "sentenceId": 105
+  },
+  {
+    "id": 492,
+    "word": "pollution",
+    "phonetic": "[pəˈlu:ʃən]",
+    "meaning": "n. 污染，污染物",
+    "sentenceId": 11
+  },
+  {
+    "id": 493,
+    "word": "poor",
+    "phonetic": "[pɔː(r)]",
+    "meaning": "a. 贫困的；贫穷的；可怜的",
+    "sentenceId": 194
+  },
+  {
+    "id": 494,
+    "word": "popular with",
+    "phonetic": "[ˈpɒpjələr wɪð]",
+    "meaning": "短语：受……欢迎",
+    "sentenceId": 109
+  },
+  {
+    "id": 495,
+    "word": "powerful",
+    "phonetic": "[ˈpaʊəfl]",
+    "meaning": "a. 强大的；有力的；有权的",
+    "sentenceId": 107
+  },
+  {
+    "id": 496,
+    "word": "practice",
+    "phonetic": "[ˈpræktɪs]",
+    "meaning": "v. 练习，实习；n. 练习，实践",
+    "sentenceId": 29
+  },
+  {
+    "id": 497,
+    "word": "practice makes perfect",
+    "phonetic": "[ˈpræktɪs meɪks ˈpɜːfɪkt]",
+    "meaning": "谚语：熟能生巧",
+    "sentenceId": 173
+  },
+  {
+    "id": 498,
+    "word": "practise",
+    "phonetic": "['præktis]",
+    "meaning": "vt.&vi. 练习；实习",
+    "sentenceId": 2
+  },
+  {
+    "id": 499,
+    "word": "praise",
+    "phonetic": "[preɪz]",
+    "meaning": "v. 表扬，赞扬；n. 赞美，称赞",
+    "sentenceId": 41
+  },
+  {
+    "id": 500,
+    "word": "precious",
+    "phonetic": "[ˈpreʃəs]",
+    "meaning": "a. 珍贵的，宝贵的；珍爱的",
+    "sentenceId": 62
+  },
+  {
+    "id": 501,
+    "word": "prefer",
+    "phonetic": "[prɪˈfə:]",
+    "meaning": "vt. 更喜欢，宁愿",
+    "sentenceId": 11
+  },
+  {
+    "id": 502,
+    "word": "prepare",
+    "phonetic": "[priˈpeə]",
+    "meaning": "v. 准备，预备",
+    "sentenceId": 19
+  },
+  {
+    "id": 503,
+    "word": "prepare for",
+    "phonetic": "[prɪˈpeə fɔː]",
+    "meaning": "短语：为……做准备；筹备",
+    "sentenceId": 175
+  },
+  {
+    "id": 504,
+    "word": "pretend",
+    "phonetic": "[prɪˈtend]",
+    "meaning": "v. 假装；伪装；声称",
+    "sentenceId": 89
+  },
+  {
+    "id": 505,
+    "word": "primary school",
+    "phonetic": "[ˈpraɪməri skuːl]",
+    "meaning": "短语：小学",
+    "sentenceId": 90
+  },
+  {
+    "id": 506,
+    "word": "print",
+    "phonetic": "[prɪnt]",
+    "meaning": "v. 印刷；打印；n. 印刷；字体",
+    "sentenceId": 110
+  },
+  {
+    "id": 507,
+    "word": "problem",
+    "phonetic": "[ˈprɒbləm]",
+    "meaning": "n. 问题；难题；习题",
+    "sentenceId": 125
+  },
+  {
+    "id": 508,
+    "word": "progress",
+    "phonetic": "[ˈprəʊɡres]",
+    "meaning": "n. 进步，进展；v. 前进，发展",
+    "sentenceId": 49
+  },
+  {
+    "id": 509,
+    "word": "pronunciation",
+    "phonetic": "[prəˌnʌnsiˈeɪʃn]",
+    "meaning": "n. 发音，读音；发音方式",
+    "sentenceId": 74
+  },
+  {
+    "id": 510,
+    "word": "protect",
+    "phonetic": "[prəˈtekt]",
+    "meaning": "vt. 保护，保卫",
+    "sentenceId": 10
+  },
+  {
+    "id": 511,
+    "word": "provide",
+    "phonetic": "[prəˈvaid]",
+    "meaning": "vt. 供给，提供",
+    "sentenceId": 16
+  },
+  {
+    "id": 512,
+    "word": "queue up",
+    "phonetic": "[kjuː ʌp]",
+    "meaning": "短语：排队，排队等候",
+    "sentenceId": 34
+  },
+  {
+    "id": 513,
+    "word": "quickly",
+    "phonetic": "[ˈkwɪkli]",
+    "meaning": "ad. 迅速地，快速地；立刻",
+    "sentenceId": 74
+  },
+  {
+    "id": 514,
+    "word": "radio",
+    "phonetic": "[ˈreɪdiəʊ]",
+    "meaning": "n. 收音机，无线电；v. 用无线电传送",
+    "sentenceId": 63
+  },
+  {
+    "id": 515,
+    "word": "rain",
+    "phonetic": "[reɪn]",
+    "meaning": "v. 下雨；n. 雨，雨水",
+    "sentenceId": 32
+  },
+  {
+    "id": 516,
+    "word": "rained heavily",
+    "phonetic": "[reɪnd ˈhevɪli]",
+    "meaning": "短语：下大雨",
+    "sentenceId": 179
+  },
+  {
+    "id": 517,
+    "word": "raise",
+    "phonetic": "[reɪz]",
+    "meaning": "v. 提出；举起；筹集；养育",
+    "sentenceId": 94
+  },
+  {
+    "id": 518,
+    "word": "raise money",
+    "phonetic": "[reɪz ˈmʌni]",
+    "meaning": "短语：筹款；募捐",
+    "sentenceId": 194
+  },
+  {
+    "id": 519,
+    "word": "rather than",
+    "phonetic": "[ˈrɑːðə ðæn]",
+    "meaning": "短语：而不是；宁可……也不愿",
+    "sentenceId": 93
+  },
+  {
+    "id": 520,
+    "word": "read",
+    "phonetic": "[ri:d]",
+    "meaning": "v. 读，朗读；看懂，理解",
+    "sentenceId": 25
+  },
+  {
+    "id": 521,
+    "word": "read aloud",
+    "phonetic": "[riːd əˈlaʊd]",
+    "meaning": "短语：大声朗读，朗读",
+    "sentenceId": 74
+  },
+  {
+    "id": 522,
+    "word": "read books",
+    "phonetic": "[riːd bʊks]",
+    "meaning": "短语：看书；读书",
+    "sentenceId": 187
+  },
+  {
+    "id": 523,
+    "word": "reading",
+    "phonetic": "[ˈriːdɪŋ]",
+    "meaning": "n. 阅读，朗读；读物；v. 读（read的现在分词）",
+    "sentenceId": 43
+  },
+  {
+    "id": 524,
+    "word": "realize",
+    "phonetic": "[ˈri:əlaɪz]",
+    "meaning": "vt. 实现；了解",
+    "sentenceId": 7
+  },
+  {
+    "id": 525,
+    "word": "reason",
+    "phonetic": "[ˈriːzn]",
+    "meaning": "n. 原因，理由；理性；v. 推理，推论",
+    "sentenceId": 57
+  },
+  {
+    "id": 526,
+    "word": "rebuild",
+    "phonetic": "[ˌriːˈbɪld]",
+    "meaning": "v. 重建；改造；重新组装",
+    "sentenceId": 96
+  },
+  {
+    "id": 527,
+    "word": "receive",
+    "phonetic": "[ri'si:v]",
+    "meaning": "vt.&vi. 收到；接到；接纳；接待",
+    "sentenceId": 2
+  },
+  {
+    "id": 528,
+    "word": "regard",
+    "phonetic": "[riˈga:d]",
+    "meaning": "vt. 看作；打量；注意；n. 尊敬；[pl] 问候",
+    "sentenceId": 14
+  },
+  {
+    "id": 529,
+    "word": "repair",
+    "phonetic": "[rɪˈpeə]",
+    "meaning": "n. 修理；v. 修理（补）",
+    "sentenceId": 9
+  },
+  {
+    "id": 530,
+    "word": "reply",
+    "phonetic": "[rɪˈplaɪ]",
+    "meaning": "n. 回复；答复；v. 回答；回应",
+    "sentenceId": 158
+  },
+  {
+    "id": 531,
+    "word": "report",
+    "phonetic": "[ri'pa:t]",
+    "meaning": "n. 报告；成绩报告单；vt.&vi. 报道；公布",
+    "sentenceId": 1
+  },
+  {
+    "id": 532,
+    "word": "research",
+    "phonetic": "[rɪˈsɜːtʃ]",
+    "meaning": "n. 研究；调查；v. 研究；探索",
+    "sentenceId": 113
+  },
+  {
+    "id": 533,
+    "word": "restaurant",
+    "phonetic": "[ˈrestərɒnt]",
+    "meaning": "n. 餐馆，饭店",
+    "sentenceId": 19
+  },
+  {
+    "id": 534,
+    "word": "result",
+    "phonetic": "[ri'zʌlt]",
+    "meaning": "n. 结果",
+    "sentenceId": 5
+  },
+  {
+    "id": 535,
+    "word": "return",
+    "phonetic": "[rɪˈtɜːn]",
+    "meaning": "v. 归还；返回；回到",
+    "sentenceId": 171
+  },
+  {
+    "id": 536,
+    "word": "review",
+    "phonetic": "[rɪˈvjuː]",
+    "meaning": "v. 复习，回顾；评论；n. 复习；评论；回顾",
+    "sentenceId": 70
+  },
+  {
+    "id": 537,
+    "word": "rich",
+    "phonetic": "[ritʃ]",
+    "meaning": "a. 富有的；富饶的；丰富的",
+    "sentenceId": 4
+  },
+  {
+    "id": 538,
+    "word": "rob",
+    "phonetic": "[rɒb]",
+    "meaning": "v. 抢劫；掠夺；非法剥夺",
+    "sentenceId": 97
+  },
+  {
+    "id": 539,
+    "word": "rose",
+    "phonetic": "[rəʊz]",
+    "meaning": "n. 玫瑰；蔷薇；v. 上升（rise的过去式）",
+    "sentenceId": 79
+  },
+  {
+    "id": 540,
+    "word": "run",
+    "phonetic": "[rʌn]",
+    "meaning": "v. 跑，奔跑；经营；运转；n. 跑，跑步",
+    "sentenceId": 39
+  },
+  {
+    "id": 541,
+    "word": "rush hours",
+    "phonetic": "[rʌʃ ˈaʊəz]",
+    "meaning": "短语：交通高峰期；高峰时间",
+    "sentenceId": 93
+  },
+  {
+    "id": 542,
+    "word": "rush out of",
+    "phonetic": "[rʌʃ aʊt ɒv]",
+    "meaning": "短语：冲出；奔出",
+    "sentenceId": 114
+  },
+  {
+    "id": 543,
+    "word": "say",
+    "phonetic": "[seɪ]",
+    "meaning": "v. 说，讲；说明；声称；n. 说，讲",
+    "sentenceId": 52
+  },
+  {
+    "id": 544,
+    "word": "say goodbye to",
+    "phonetic": "[seɪ ˌɡʊdˈbaɪ tu]",
+    "meaning": "短语：告别；道别",
+    "sentenceId": 106
+  },
+  {
+    "id": 545,
+    "word": "school",
+    "phonetic": "[skuːl]",
+    "meaning": "n. 学校；上学；学院；v. 教育，培养",
+    "sentenceId": 57
+  },
+  {
+    "id": 546,
+    "word": "science",
+    "phonetic": "[ˈsaiəns]",
+    "meaning": "n. 科学；学科",
+    "sentenceId": 20
+  },
+  {
+    "id": 547,
+    "word": "scientific",
+    "phonetic": "[ˌsaiənˈtifik]",
+    "meaning": "a. 科学的",
+    "sentenceId": 20
+  },
+  {
+    "id": 548,
+    "word": "scientist",
+    "phonetic": "['saiəntist]",
+    "meaning": "n. 科学家；科学工作者",
+    "sentenceId": 3
+  },
+  {
+    "id": 549,
+    "word": "season",
+    "phonetic": "[ˈsiːzn]",
+    "meaning": "n. 季节，季；时期；v. 给……调味",
+    "sentenceId": 54
+  },
+  {
+    "id": 550,
+    "word": "seat",
+    "phonetic": "[siːt]",
+    "meaning": "n. 座位；职位；v. 使坐下；安排座位",
+    "sentenceId": 76
+  },
+  {
+    "id": 551,
+    "word": "secret",
+    "phonetic": "[ˈsi:krit]",
+    "meaning": "a. 秘密的，机密的；n. 秘密",
+    "sentenceId": 20
+  },
+  {
+    "id": 552,
+    "word": "secretary",
+    "phonetic": "[ˈsekrətri]",
+    "meaning": "n. 秘书；书记；部长，大臣",
+    "sentenceId": 101
+  },
+  {
+    "id": 553,
+    "word": "see",
+    "phonetic": "[siː]",
+    "meaning": "v. 看见，看到；理解；会见",
+    "sentenceId": 40
+  },
+  {
+    "id": 554,
+    "word": "send",
+    "phonetic": "[send]",
+    "meaning": "vt. 送，寄；派遣，打发；发送，发射",
+    "sentenceId": 1
+  },
+  {
+    "id": 555,
+    "word": "senior high school",
+    "phonetic": "[ˈsiːniə haɪ skuːl]",
+    "meaning": "短语：高中",
+    "sentenceId": 76
+  },
+  {
+    "id": 556,
+    "word": "serious",
+    "phonetic": "[ˈsɪəriəs]",
+    "meaning": "a. 严重的；认真的；严肃的",
+    "sentenceId": 102
+  },
+  {
+    "id": 557,
+    "word": "set off",
+    "phonetic": "[set ɒf]",
+    "meaning": "短语：点燃；出发；引起",
+    "sentenceId": 106
+  },
+  {
+    "id": 558,
+    "word": "several",
+    "phonetic": "[ˈsevrəl]",
+    "meaning": "a. 几个，若干，数个",
+    "sentenceId": 8
+  },
+  {
+    "id": 559,
+    "word": "Shanghai",
+    "phonetic": "[ʃæŋˈhaɪ]",
+    "meaning": "n. 上海（中国城市）",
+    "sentenceId": 56
+  },
+  {
+    "id": 560,
+    "word": "share",
+    "phonetic": "[ʃeə(r)]",
+    "meaning": "v. 分享；分担；分配；n. 份额；股份",
+    "sentenceId": 91
+  },
+  {
+    "id": 561,
+    "word": "shopping mall",
+    "phonetic": "[ˈʃɒpɪŋ mɔːl]",
+    "meaning": "短语：购物中心；商场",
+    "sentenceId": 129
+  },
+  {
+    "id": 562,
+    "word": "should",
+    "phonetic": "[ʃʊd]",
+    "meaning": "modal v. 应该，应当；可能，该",
+    "sentenceId": 37
+  },
+  {
+    "id": 563,
+    "word": "show",
+    "phonetic": "[ʃəʊ]",
+    "meaning": "v. 展示，出示；表明；n. 演出，展览",
+    "sentenceId": 31
+  },
+  {
+    "id": 564,
+    "word": "shy",
+    "phonetic": "[ʃaɪ]",
+    "meaning": "a. 害羞的；腼腆的；胆怯的",
+    "sentenceId": 115
+  },
+  {
+    "id": 565,
+    "word": "sightseeing",
+    "phonetic": "[ˈsaɪtsiːɪŋ]",
+    "meaning": "n. 观光；游览；adj. 观光的；游览的",
+    "sentenceId": 96
+  },
+  {
+    "id": 566,
+    "word": "since",
+    "phonetic": "[sɪns]",
+    "meaning": "prep. 自......以来；conj. 自......以来；既然；由于",
+    "sentenceId": 7
+  },
+  {
+    "id": 567,
+    "word": "since then",
+    "phonetic": "[sɪns ðen]",
+    "meaning": "短语：从那以后，自那时以来",
+    "sentenceId": 48
+  },
+  {
+    "id": 568,
+    "word": "singing competition",
+    "phonetic": "[ˈsɪŋɪŋ ˌkɒmpəˈtɪʃn]",
+    "meaning": "短语：歌唱比赛",
+    "sentenceId": 177
+  },
+  {
+    "id": 569,
+    "word": "sitting room",
+    "phonetic": "[ˈsɪtɪŋ ruːm]",
+    "meaning": "短语：客厅；起居室",
+    "sentenceId": 79
+  },
+  {
+    "id": 570,
+    "word": "size",
+    "phonetic": "[saɪz]",
+    "meaning": "n. 大小；尺寸；规模；v. 按大小排列",
+    "sentenceId": 99
+  },
+  {
+    "id": 571,
+    "word": "skill",
+    "phonetic": "[skɪl]",
+    "meaning": "n. 技能；技巧；技艺；本领",
+    "sentenceId": 145
+  },
+  {
+    "id": 572,
+    "word": "small",
+    "phonetic": "[smɔːl]",
+    "meaning": "a. 小的；少的；不重要的",
+    "sentenceId": 31
+  },
+  {
+    "id": 573,
+    "word": "so many",
+    "phonetic": "[səʊ ˈmeni]",
+    "meaning": "短语：这么多；如此多（修饰可数名词复数）",
+    "sentenceId": 197
+  },
+  {
+    "id": 574,
+    "word": "soldier",
+    "phonetic": "[ˈsəʊldʒə(r)]",
+    "meaning": "n. 士兵；军人",
+    "sentenceId": 77
+  },
+  {
+    "id": 575,
+    "word": "solve",
+    "phonetic": "[sɒlv]",
+    "meaning": "vt. 解决；解答",
+    "sentenceId": 6
+  },
+  {
+    "id": 576,
+    "word": "something",
+    "phonetic": "[ˈsʌmθɪŋ]",
+    "meaning": "pron. 某事，某物；重要的事物",
+    "sentenceId": 62
+  },
+  {
+    "id": 577,
+    "word": "sooner or later",
+    "phonetic": "[ˈsuːnə ɔː ˈleɪtə]",
+    "meaning": "短语：迟早，早晚",
+    "sentenceId": 49
+  },
+  {
+    "id": 578,
+    "word": "sound",
+    "phonetic": "[saund]",
+    "meaning": "n. 声音；v. 响；听起来；ad. 酣畅地",
+    "sentenceId": 12
+  },
+  {
+    "id": 579,
+    "word": "spare",
+    "phonetic": "[speə(r)]",
+    "meaning": "a. 业余的；空闲的；备用的；多余的",
+    "sentenceId": 145
+  },
+  {
+    "id": 580,
+    "word": "speak",
+    "phonetic": "[spiːk]",
+    "meaning": "v. 说，讲；发言；交谈",
+    "sentenceId": 29
+  },
+  {
+    "id": 581,
+    "word": "species",
+    "phonetic": "[ˈspiːʃiːz]",
+    "meaning": "n. 物种；种类；类型（单复数同形）",
+    "sentenceId": 147
+  },
+  {
+    "id": 582,
+    "word": "speech",
+    "phonetic": "[spiːtʃ]",
+    "meaning": "n. 口语；言语；说话能力；演讲",
+    "sentenceId": 141
+  },
+  {
+    "id": 583,
+    "word": "speed",
+    "phonetic": "[spiːd]",
+    "meaning": "n. 速度；速率；进度；v. 加速；超速",
+    "sentenceId": 131
+  },
+  {
+    "id": 584,
+    "word": "spell",
+    "phonetic": "[spel]",
+    "meaning": "v. 拼写；拼出；意味着；n. 咒语；符咒",
+    "sentenceId": 100
+  },
+  {
+    "id": 585,
+    "word": "spend",
+    "phonetic": "[spend]",
+    "meaning": "vt.&vi. 用钱，花钱；vt. 花费；消耗；花（时间）；度过",
+    "sentenceId": 3
+  },
+  {
+    "id": 586,
+    "word": "sports meet",
+    "phonetic": "[ˈspɔːts miːt]",
+    "meaning": "短语：运动会",
+    "sentenceId": 155
+  },
+  {
+    "id": 587,
+    "word": "spring",
+    "phonetic": "[sprɪŋ]",
+    "meaning": "n. 春天，春季；泉水；弹簧；v. 跳，跃",
+    "sentenceId": 54
+  },
+  {
+    "id": 588,
+    "word": "Spring Festival",
+    "phonetic": "[sprɪŋ ˈfestɪvl]",
+    "meaning": "短语：春节",
+    "sentenceId": 106
+  },
+  {
+    "id": 589,
+    "word": "start",
+    "phonetic": "[sta:t]",
+    "meaning": "vt. 开始；创办；vi. 开始；出发",
+    "sentenceId": 11
+  },
+  {
+    "id": 590,
+    "word": "station",
+    "phonetic": "[ˈsteiʃən]",
+    "meaning": "n. 站，所，车站；电台",
+    "sentenceId": 26
+  },
+  {
+    "id": 591,
+    "word": "stay in bed",
+    "phonetic": "[steɪ ɪn bed]",
+    "meaning": "短语：躺在床上；卧床休息",
+    "sentenceId": 101
+  },
+  {
+    "id": 592,
+    "word": "stay up late",
+    "phonetic": "[steɪ ʌp leɪt]",
+    "meaning": "短语：熬夜；晚睡",
+    "sentenceId": 120
+  },
+  {
+    "id": 593,
+    "word": "stick to",
+    "phonetic": "[stɪk tu]",
+    "meaning": "短语：坚持；固守；遵守；忠于",
+    "sentenceId": 138
+  },
+  {
+    "id": 594,
+    "word": "still",
+    "phonetic": "[stɪl]",
+    "meaning": "adv. 仍然；还；依旧",
+    "sentenceId": 179
+  },
+  {
+    "id": 595,
+    "word": "stomachache",
+    "phonetic": "[ˈstʌməkeɪk]",
+    "meaning": "n. 胃痛；肚子痛",
+    "sentenceId": 102
+  },
+  {
+    "id": 596,
+    "word": "stop",
+    "phonetic": "[stɒp]",
+    "meaning": "v. 停止；阻止；终止",
+    "sentenceId": 170
+  },
+  {
+    "id": 597,
+    "word": "stop doing sth",
+    "phonetic": "[stɒp ˈduːɪŋ sth]",
+    "meaning": "短语：停止做某事",
+    "sentenceId": 139
+  },
+  {
+    "id": 598,
+    "word": "strong",
+    "phonetic": "[strɒŋ]",
+    "meaning": "a. 强壮的；牢固的；强烈的",
+    "sentenceId": 77
+  },
+  {
+    "id": 599,
+    "word": "student",
+    "phonetic": "[ˈstjuːdnt]",
+    "meaning": "n. 学生，大学生；研究者",
+    "sentenceId": 46
+  },
+  {
+    "id": 600,
+    "word": "study",
+    "phonetic": "[ˈstʌdi]",
+    "meaning": "v. 学习，研究；n. 学习，书房",
+    "sentenceId": 41
+  },
+  {
+    "id": 601,
+    "word": "subject",
+    "phonetic": "[ˈsʌbdʒɪkt]",
+    "meaning": "n. 主题；学科；对象；主语；vt. 使服从",
+    "sentenceId": 7
+  },
+  {
+    "id": 602,
+    "word": "subway",
+    "phonetic": "[ˈsʌbwei]",
+    "meaning": "n. 地铁；地下人行道",
+    "sentenceId": 26
+  },
+  {
+    "id": 603,
+    "word": "succeed",
+    "phonetic": "[səkˈsiːd]",
+    "meaning": "v. 成功；继承；继任",
+    "sentenceId": 88
+  },
+  {
+    "id": 604,
+    "word": "success",
+    "phonetic": "[səkˈses]",
+    "meaning": "n. 成功，成就；胜利；成功的人/事",
+    "sentenceId": 75
+  },
+  {
+    "id": 605,
+    "word": "successful",
+    "phonetic": "[sək'sesful]",
+    "meaning": "a. 成功的",
+    "sentenceId": 3
+  },
+  {
+    "id": 606,
+    "word": "such",
+    "phonetic": "[sʌtʃ]",
+    "meaning": "a. 这样的，如此的；pron. 这样的人/物",
+    "sentenceId": 40
+  },
+  {
+    "id": 607,
+    "word": "such as",
+    "phonetic": "[sʌtʃ æz]",
+    "meaning": "短语：例如；像……这样",
+    "sentenceId": 92
+  },
+  {
+    "id": 608,
+    "word": "such...that...",
+    "phonetic": "[sʌtʃ ðæt]",
+    "meaning": "短语：如此……以至于……",
+    "sentenceId": 149
+  },
+  {
+    "id": 609,
+    "word": "suggest",
+    "phonetic": "[səˈdʒest]",
+    "meaning": "v. 建议，提议；暗示，表明",
+    "sentenceId": 47
+  },
+  {
+    "id": 610,
+    "word": "summer holidays",
+    "phonetic": "[ˈsʌmə ˈhɒlədeɪz]",
+    "meaning": "短语：暑假",
+    "sentenceId": 89
+  },
+  {
+    "id": 611,
+    "word": "sun",
+    "phonetic": "[sʌn]",
+    "meaning": "n. 太阳；阳光",
+    "sentenceId": 188
+  },
+  {
+    "id": 612,
+    "word": "sunbath",
+    "phonetic": "[ˈsʌnbɑːθ]",
+    "meaning": "n. 日光浴；v. 晒日光浴",
+    "sentenceId": 95
+  },
+  {
+    "id": 613,
+    "word": "Sunday",
+    "phonetic": "[ˈsʌndeɪ]",
+    "meaning": "n. 星期日，周日",
+    "sentenceId": 47
+  },
+  {
+    "id": 614,
+    "word": "supply",
+    "phonetic": "[səˈplai]",
+    "meaning": "n. 供应；[pl] 存货，必需品；vt. 供给；满足",
+    "sentenceId": 16
+  },
+  {
+    "id": 615,
+    "word": "support",
+    "phonetic": "[sə'pɔ:t]",
+    "meaning": "vt. 支持；帮助；支撑；维持；n. 支撑；支持者",
+    "sentenceId": 6
+  },
+  {
+    "id": 616,
+    "word": "suppose",
+    "phonetic": "[səˈpəʊz]",
+    "meaning": "v. 认为，猜想；假定；应该",
+    "sentenceId": 58
+  },
+  {
+    "id": 617,
+    "word": "surface",
+    "phonetic": "[ˈsɜːfɪs]",
+    "meaning": "n. 表面；表层；外观；v. 浮出水面；露面",
+    "sentenceId": 95
+  },
+  {
+    "id": 618,
+    "word": "surprised",
+    "phonetic": "[sə'praizd]",
+    "meaning": "a. 感到惊讶的",
+    "sentenceId": 5
+  },
+  {
+    "id": 619,
+    "word": "surprising",
+    "phonetic": "[sə'praiziŋ]",
+    "meaning": "a. 使人惊讶的，出人意料的，惊人的；惊人的，意外的",
+    "sentenceId": 5
+  },
+  {
+    "id": 620,
+    "word": "sweep",
+    "phonetic": "[swiːp]",
+    "meaning": "v. 扫；清扫；掠过；n. 打扫；席卷",
+    "sentenceId": 90
+  },
+  {
+    "id": 621,
+    "word": "T-shirt",
+    "phonetic": "[ˈtiː ʃɜːt]",
+    "meaning": "n. T恤衫，短袖汗衫",
+    "sentenceId": 31
+  },
+  {
+    "id": 622,
+    "word": "table tennis",
+    "phonetic": "[ˈteɪbl tenɪs]",
+    "meaning": "n. 乒乓球",
+    "sentenceId": 71
+  },
+  {
+    "id": 623,
+    "word": "take",
+    "phonetic": "[teɪk]",
+    "meaning": "v. 花费；拿走；乘坐（过去式took）",
+    "sentenceId": 154
+  },
+  {
+    "id": 624,
+    "word": "take action",
+    "phonetic": "[teɪk ˈækʃn]",
+    "meaning": "短语：采取行动；采取措施",
+    "sentenceId": 148
+  },
+  {
+    "id": 625,
+    "word": "take care of",
+    "phonetic": "[teɪk keə ɒv]",
+    "meaning": "短语：照顾；照料；爱护",
+    "sentenceId": 28
+  },
+  {
+    "id": 626,
+    "word": "take off",
+    "phonetic": "[teɪk ɒf]",
+    "meaning": "短语：（飞机）起飞；脱下；离开",
+    "sentenceId": 190
+  },
+  {
+    "id": 627,
+    "word": "take part in",
+    "phonetic": "[teɪk pɑːt ɪn]",
+    "meaning": "短语：参加，参与",
+    "sentenceId": 72
+  },
+  {
+    "id": 628,
+    "word": "talk",
+    "phonetic": "[tɔːk]",
+    "meaning": "v. 说话；交谈；谈论；议论；n. 谈话；交谈",
+    "sentenceId": 139
+  },
+  {
+    "id": 629,
+    "word": "talk with",
+    "phonetic": "[tɔːk wɪð]",
+    "meaning": "短语：与……交谈；和……说话",
+    "sentenceId": 169
+  },
+  {
+    "id": 630,
+    "word": "taste",
+    "phonetic": "[teɪst]",
+    "meaning": "v. 品尝；体验；n. 味道；品味",
+    "sentenceId": 78
+  },
+  {
+    "id": 631,
+    "word": "teacher",
+    "phonetic": "[ˈtiːtʃə(r)]",
+    "meaning": "n. 教师，老师；导师",
+    "sentenceId": 69
+  },
+  {
+    "id": 632,
+    "word": "teenager",
+    "phonetic": "[ˈtiːneɪdʒə]",
+    "meaning": "n. 青少年（13-19岁）",
+    "sentenceId": 28
+  },
+  {
+    "id": 633,
+    "word": "tell",
+    "phonetic": "[tel]",
+    "meaning": "v. 告诉；讲述；吩咐",
+    "sentenceId": 26
+  },
+  {
+    "id": 634,
+    "word": "term",
+    "phonetic": "[tɜːm]",
+    "meaning": "n. 学期；术语；期限；v. 把……称为",
+    "sentenceId": 69
+  },
+  {
+    "id": 635,
+    "word": "textbook",
+    "phonetic": "[ˈtekstbʊk]",
+    "meaning": "n. 课本；教科书；教材；a. 规范的；标准的",
+    "sentenceId": 142
+  },
+  {
+    "id": 636,
+    "word": "thank",
+    "phonetic": "[θæŋk]",
+    "meaning": "v. 感谢，谢谢；n. 感谢，谢意",
+    "sentenceId": 73
+  },
+  {
+    "id": 637,
+    "word": "thankful",
+    "phonetic": "[ˈθæŋkfl]",
+    "meaning": "a. 感激的，感谢的；欣慰的",
+    "sentenceId": 73
+  },
+  {
+    "id": 638,
+    "word": "thanks to",
+    "phonetic": "[θæŋks tu]",
+    "meaning": "短语：多亏；由于；因为",
+    "sentenceId": 140
+  },
+  {
+    "id": 639,
+    "word": "that",
+    "phonetic": "[ðæt]",
+    "meaning": "pron. 那，那个；conj. 引导从句；adj. 那，那个",
+    "sentenceId": 64
+  },
+  {
+    "id": 640,
+    "word": "the first time",
+    "phonetic": "[ðə fɜːst taɪm]",
+    "meaning": "短语：第一次",
+    "sentenceId": 195
+  },
+  {
+    "id": 641,
+    "word": "the Great Wall",
+    "phonetic": "[ðə ɡreɪt wɔːl]",
+    "meaning": "短语：长城",
+    "sentenceId": 137
+  },
+  {
+    "id": 642,
+    "word": "the more...the healthier...",
+    "phonetic": "[ðə mɔː ˈeksəsaɪz ðə ˈhelθiə]",
+    "meaning": "短语：越……越……",
+    "sentenceId": 192
+  },
+  {
+    "id": 643,
+    "word": "the more...the more...",
+    "phonetic": "[ðə mɔː(r) ðə mɔː(r)]",
+    "meaning": "短语：越……越……",
+    "sentenceId": 141
+  },
+  {
+    "id": 644,
+    "word": "the number of",
+    "phonetic": "[ðə ˈnʌmbə ɒv]",
+    "meaning": "短语：……的数量",
+    "sentenceId": 181
+  },
+  {
+    "id": 645,
+    "word": "the reason why",
+    "phonetic": "[ðə ˈriːzn waɪ]",
+    "meaning": "短语：……的原因",
+    "sentenceId": 144
+  },
+  {
+    "id": 646,
+    "word": "the same with",
+    "phonetic": "[ðə seɪm wɪð]",
+    "meaning": "短语：……也是如此",
+    "sentenceId": 173
+  },
+  {
+    "id": 647,
+    "word": "them",
+    "phonetic": "[ðəm]",
+    "meaning": "pron. 他们；她们；它们（宾格）",
+    "sentenceId": 181
+  },
+  {
+    "id": 648,
+    "word": "themselves",
+    "phonetic": "[ðəmˈselvz]",
+    "meaning": "pron. 他们自己；她们自己；它们自己",
+    "sentenceId": 28
+  },
+  {
+    "id": 649,
+    "word": "this kind of",
+    "phonetic": "[ðɪs kaɪnd ɒv]",
+    "meaning": "短语：这种",
+    "sentenceId": 165
+  },
+  {
+    "id": 650,
+    "word": "this morning",
+    "phonetic": "[ðɪs ˈmɔːnɪŋ]",
+    "meaning": "短语：今天早上；今早",
+    "sentenceId": 144
+  },
+  {
+    "id": 651,
+    "word": "this term",
+    "phonetic": "[ðɪs tɜːm]",
+    "meaning": "短语：这学期",
+    "sentenceId": 69
+  },
+  {
+    "id": 652,
+    "word": "those",
+    "phonetic": "[ðəʊz]",
+    "meaning": "pron. 那些；adj. 那些的",
+    "sentenceId": 75
+  },
+  {
+    "id": 653,
+    "word": "thousand",
+    "phonetic": "[ˈθaʊznd]",
+    "meaning": "num. 一千；数以千计的；许许多多的",
+    "sentenceId": 146
+  },
+  {
+    "id": 654,
+    "word": "three times",
+    "phonetic": "[θriː taɪmz]",
+    "meaning": "短语：三次",
+    "sentenceId": 56
+  },
+  {
+    "id": 655,
+    "word": "tidy",
+    "phonetic": "[ˈtaɪdi]",
+    "meaning": "a. 整洁的；整齐的；井然有序的；v. 整理；收拾",
+    "sentenceId": 146
+  },
+  {
+    "id": 656,
+    "word": "times",
+    "phonetic": "[taɪmz]",
+    "meaning": "n. 倍；次数；时代（time的复数）",
+    "sentenceId": 99
+  },
+  {
+    "id": 657,
+    "word": "tired",
+    "phonetic": "[ˈtaɪəd]",
+    "meaning": "a. 疲倦的；厌倦的",
+    "sentenceId": 80
+  },
+  {
+    "id": 658,
+    "word": "together",
+    "phonetic": "[təˈɡeðə(r)]",
+    "meaning": "ad. 一起，共同；同时，一齐",
+    "sentenceId": 50
+  },
+  {
+    "id": 659,
+    "word": "tomorrow",
+    "phonetic": "[təˈmɒrəʊ]",
+    "meaning": "ad. 在明天，在明日；n. 明天，明日",
+    "sentenceId": 32
+  },
+  {
+    "id": 660,
+    "word": "too",
+    "phonetic": "[tuː]",
+    "meaning": "ad. 也；太，过于；很，非常",
+    "sentenceId": 31
+  },
+  {
+    "id": 661,
+    "word": "too much",
+    "phonetic": "[tuː mʌð]",
+    "meaning": "短语：太多（修饰不可数名词/动词）",
+    "sentenceId": 53
+  },
+  {
+    "id": 662,
+    "word": "too+形容词/副词+to+V原",
+    "phonetic": "[tu: + adj/adv + tu: + v]",
+    "meaning": "短语：......，而不能.....",
+    "sentenceId": 19
+  },
+  {
+    "id": 663,
+    "word": "traditional",
+    "phonetic": "[trəˈdɪʃənl]",
+    "meaning": "a. 传统的；惯例的；口传的",
+    "sentenceId": 126
+  },
+  {
+    "id": 664,
+    "word": "traffic",
+    "phonetic": "['træfik]",
+    "meaning": "n. 交通，运输量；（非法的）交易；通信量；交际",
+    "sentenceId": 1
+  },
+  {
+    "id": 665,
+    "word": "traffic rules",
+    "phonetic": "[ˈtræfɪk ruːlz]",
+    "meaning": "短语：交通规则；交通法规",
+    "sentenceId": 196
+  },
+  {
+    "id": 666,
+    "word": "train",
+    "phonetic": "[treɪn]",
+    "meaning": "n. 火车，列车；v. 训练，培养",
+    "sentenceId": 39
+  },
+  {
+    "id": 667,
+    "word": "translate",
+    "phonetic": "[trænsˈleɪt]",
+    "meaning": "v. 翻译；转化；解释",
+    "sentenceId": 184
+  },
+  {
+    "id": 668,
+    "word": "travel around",
+    "phonetic": "[ˈtrævl əˈraʊnd]",
+    "meaning": "短语：环游；周游",
+    "sentenceId": 92
+  },
+  {
+    "id": 669,
+    "word": "tree",
+    "phonetic": "[triː]",
+    "meaning": "n. 树，树木；乔木",
+    "sentenceId": 37
+  },
+  {
+    "id": 670,
+    "word": "true",
+    "phonetic": "[truː]",
+    "meaning": "a. 真实的；真的；正确的；忠实的",
+    "sentenceId": 136
+  },
+  {
+    "id": 671,
+    "word": "truth",
+    "phonetic": "[truːθ]",
+    "meaning": "n. 真相；事实；真理",
+    "sentenceId": 105
+  },
+  {
+    "id": 672,
+    "word": "try",
+    "phonetic": "[trai]",
+    "meaning": "vt.&vi. 试图；努力；试验；尝试",
+    "sentenceId": 4
+  },
+  {
+    "id": 673,
+    "word": "try one's best",
+    "phonetic": "[traɪ wʌnz best]",
+    "meaning": "短语：尽力；竭尽全力",
+    "sentenceId": 125
+  },
+  {
+    "id": 674,
+    "word": "turn down",
+    "phonetic": "[tɜːn daʊn]",
+    "meaning": "短语：调小（音量）；拒绝；把……翻下来",
+    "sentenceId": 63
+  },
+  {
+    "id": 675,
+    "word": "turn off",
+    "phonetic": "[tɜːn ɒf]",
+    "meaning": "短语：关掉；关闭",
+    "sentenceId": 164
+  },
+  {
+    "id": 676,
+    "word": "TV",
+    "phonetic": "[ˌtiː ˈviː]",
+    "meaning": "n. 电视；电视机",
+    "sentenceId": 164
+  },
+  {
+    "id": 677,
+    "word": "TV program",
+    "phonetic": "[ˌtiːˈviː ˈprəʊɡræm]",
+    "meaning": "短语：电视节目",
+    "sentenceId": 86
+  },
+  {
+    "id": 678,
+    "word": "twenty",
+    "phonetic": "[ˈtwenti]",
+    "meaning": "num. 二十，二十个",
+    "sentenceId": 33
+  },
+  {
+    "id": 679,
+    "word": "umbrella",
+    "phonetic": "[ʌmˈbrelə]",
+    "meaning": "n. 伞，雨伞；保护伞",
+    "sentenceId": 30
+  },
+  {
+    "id": 680,
+    "word": "understand",
+    "phonetic": "[ˌʌndəˈstænd]",
+    "meaning": "v. 理解；明白；懂得；领会（过去式understood）",
+    "sentenceId": 133
+  },
+  {
+    "id": 681,
+    "word": "unless",
+    "phonetic": "[ənˈles]",
+    "meaning": "conj. 除非；如果不（=if not）",
+    "sentenceId": 148
+  },
+  {
+    "id": 682,
+    "word": "unluckily",
+    "phonetic": "[ʌnˈlʌkɪli]",
+    "meaning": "ad. 不幸地；倒霉地",
+    "sentenceId": 80
+  },
+  {
+    "id": 683,
+    "word": "until",
+    "phonetic": "[ənˈtil]",
+    "meaning": "prep. 直到……为止；conj. 直到……才",
+    "sentenceId": 24
+  },
+  {
+    "id": 684,
+    "word": "useful",
+    "phonetic": "[ˈjuːsfl]",
+    "meaning": "a. 有用的；有益的；实用的",
+    "sentenceId": 184
+  },
+  {
+    "id": 685,
+    "word": "vegetable",
+    "phonetic": "[ˈvedʒtəbl]",
+    "meaning": "n. 蔬菜，植物",
+    "sentenceId": 8
+  },
+  {
+    "id": 686,
+    "word": "village",
+    "phonetic": "[ˈvilidʒ]",
+    "meaning": "n. 村庄，乡村，村",
+    "sentenceId": 23
+  },
+  {
+    "id": 687,
+    "word": "visit",
+    "phonetic": "[ˈvɪzɪt]",
+    "meaning": "v. 参观；访问；拜访；游览；n. 参观；访问",
+    "sentenceId": 137
+  },
+  {
+    "id": 688,
+    "word": "vocabulary",
+    "phonetic": "[vəˈkæbjələri]",
+    "meaning": "n. 词汇，词汇量；词表",
+    "sentenceId": 44
+  },
+  {
+    "id": 689,
+    "word": "voice",
+    "phonetic": "[vɔis]",
+    "meaning": "n. 声音；（表达出的）意见",
+    "sentenceId": 12
+  },
+  {
+    "id": 690,
+    "word": "wait",
+    "phonetic": "[weɪt]",
+    "meaning": "v. 等，等待；盼望；n. 等待，等待时间",
+    "sentenceId": 34
+  },
+  {
+    "id": 691,
+    "word": "waiter",
+    "phonetic": "[ˈweɪtə(r)]",
+    "meaning": "n. 男服务员；侍者",
+    "sentenceId": 78
+  },
+  {
+    "id": 692,
+    "word": "wake up",
+    "phonetic": "[weɪk ʌp]",
+    "meaning": "短语：醒来；唤醒",
+    "sentenceId": 101
+  },
+  {
+    "id": 693,
+    "word": "walk",
+    "phonetic": "[wɔːk]",
+    "meaning": "v. 步行；走路；n. 步行；散步",
+    "sentenceId": 182
+  },
+  {
+    "id": 694,
+    "word": "want",
+    "phonetic": "[wɒnt]",
+    "meaning": "v. 想要，希望；需要；n. 想要的东西，需求",
+    "sentenceId": 60
+  },
+  {
+    "id": 695,
+    "word": "warm",
+    "phonetic": "[wɔːm]",
+    "meaning": "a. 温暖的；暖和的；热情的",
+    "sentenceId": 160
+  },
+  {
+    "id": 696,
+    "word": "wash",
+    "phonetic": "[wɔʃ]",
+    "meaning": "v. 洗，洗涤；冲",
+    "sentenceId": 21
+  },
+  {
+    "id": 697,
+    "word": "watch",
+    "phonetic": "[wɒtʃ]",
+    "meaning": "v. 看，观看；注视；n. 手表；监视",
+    "sentenceId": 51
+  },
+  {
+    "id": 698,
+    "word": "watch TV",
+    "phonetic": "[wɒtʃ ˈtiːvi]",
+    "meaning": "短语：看电视",
+    "sentenceId": 187
+  },
+  {
+    "id": 699,
+    "word": "wear",
+    "phonetic": "[weə(r)]",
+    "meaning": "v. 穿，戴；磨损，用旧",
+    "sentenceId": 31
+  },
+  {
+    "id": 700,
+    "word": "weather forecast",
+    "phonetic": "[ˈweðə ˈfɔːkɑːst]",
+    "meaning": "短语：天气预报",
+    "sentenceId": 81
+  },
+  {
+    "id": 701,
+    "word": "week",
+    "phonetic": "[wiːk]",
+    "meaning": "n. 周；星期；礼拜",
+    "sentenceId": 171
+  },
+  {
+    "id": 702,
+    "word": "weekday",
+    "phonetic": "[ˈwiːkdeɪ]",
+    "meaning": "n. 工作日；平日（周一至周五）",
+    "sentenceId": 120
+  },
+  {
+    "id": 703,
+    "word": "weekend",
+    "phonetic": "[ˌwiːkˈend]",
+    "meaning": "n. 周末，周末假期；vi. 过周末",
+    "sentenceId": 35
+  },
+  {
+    "id": 704,
+    "word": "weight",
+    "phonetic": "[weɪt]",
+    "meaning": "n. 重量；砝码",
+    "sentenceId": 8
+  },
+  {
+    "id": 705,
+    "word": "welcome",
+    "phonetic": "[ˈwelkəm]",
+    "meaning": "v. 欢迎；迎接；n. 欢迎；adj. 受欢迎的",
+    "sentenceId": 106
+  },
+  {
+    "id": 706,
+    "word": "well",
+    "phonetic": "[wel]",
+    "meaning": "ad. 很好地；充分地；满意地；a. 健康的",
+    "sentenceId": 123
+  },
+  {
+    "id": 707,
+    "word": "were",
+    "phonetic": "[wɜː(r)]",
+    "meaning": "v. 是，在（are的过去式；虚拟语气中be的过去式）",
+    "sentenceId": 72
+  },
+  {
+    "id": 708,
+    "word": "western",
+    "phonetic": "[ˈwestən]",
+    "meaning": "a. 西方的，西部的",
+    "sentenceId": 14
+  },
+  {
+    "id": 709,
+    "word": "what",
+    "phonetic": "[wɒt]",
+    "meaning": "pron. 什么；多么；adj. 什么；多么",
+    "sentenceId": 66
+  },
+  {
+    "id": 710,
+    "word": "what a beautiful day",
+    "phonetic": "[wɒt ə ˈbjuːtɪfl deɪ]",
+    "meaning": "短语：多么美好的一天啊（感叹句）",
+    "sentenceId": 134
+  },
+  {
+    "id": 711,
+    "word": "where",
+    "phonetic": "[weə(r)]",
+    "meaning": "adv. 在哪里；在……的地方；conj. 无论哪里",
+    "sentenceId": 55
+  },
+  {
+    "id": 712,
+    "word": "whether",
+    "phonetic": "[ˈweðə(r)]",
+    "meaning": "conj. 是否；不管，无论",
+    "sentenceId": 35
+  },
+  {
+    "id": 713,
+    "word": "while",
+    "phonetic": "[wail]",
+    "meaning": "conj. 当...的时候；而；虽然；n. 一会儿",
+    "sentenceId": 13
+  },
+  {
+    "id": 714,
+    "word": "who",
+    "phonetic": "[huː]",
+    "meaning": "pron. 谁（关系代词）",
+    "sentenceId": 169
+  },
+  {
+    "id": 715,
+    "word": "whole",
+    "phonetic": "[həul]",
+    "meaning": "a. 全部的，所有的；完整的",
+    "sentenceId": 6
+  },
+  {
+    "id": 716,
+    "word": "whose",
+    "phonetic": "[huːz]",
+    "meaning": "pron. 谁的（关系代词）",
+    "sentenceId": 159
+  },
+  {
+    "id": 717,
+    "word": "why",
+    "phonetic": "[wai]",
+    "meaning": "adv. 为什么；conj. ......的原因",
+    "sentenceId": 14
+  },
+  {
+    "id": 718,
+    "word": "wife",
+    "phonetic": "[waif]",
+    "meaning": "n. 妻子，太太",
+    "sentenceId": 23
+  },
+  {
+    "id": 719,
+    "word": "wild",
+    "phonetic": "[waɪld]",
+    "meaning": "a. 野生的；野蛮的；荒凉的；n. 荒野；野外",
+    "sentenceId": 130
+  },
+  {
+    "id": 720,
+    "word": "win",
+    "phonetic": "[wɪn]",
+    "meaning": "v. 赢得；获胜；获得（过去式won）",
+    "sentenceId": 175
+  },
+  {
+    "id": 721,
+    "word": "winner",
+    "phonetic": "[ˈwɪnə(r)]",
+    "meaning": "n. 胜利者；赢家；获奖者",
+    "sentenceId": 103
+  },
+  {
+    "id": 722,
+    "word": "winter",
+    "phonetic": "[ˈwɪntə(r)]",
+    "meaning": "n. 冬天，冬季；v. 过冬",
+    "sentenceId": 54
+  },
+  {
+    "id": 723,
+    "word": "winter holidays",
+    "phonetic": "[ˈwɪntə ˈhɒlədeɪz]",
+    "meaning": "短语：寒假",
+    "sentenceId": 92
+  },
+  {
+    "id": 724,
+    "word": "wish",
+    "phonetic": "[wɪʃ]",
+    "meaning": "v. 希望，想要；祝愿；n. 愿望，希望；祝愿",
+    "sentenceId": 68
+  },
+  {
+    "id": 725,
+    "word": "with",
+    "phonetic": "[wɪð]",
+    "meaning": "prep. 和……一起；用；具有；关于",
+    "sentenceId": 67
+  },
+  {
+    "id": 726,
+    "word": "with a smile",
+    "phonetic": "[wɪð ə smaɪl]",
+    "meaning": "短语：面带微笑；微笑着",
+    "sentenceId": 143
+  },
+  {
+    "id": 727,
+    "word": "with the help of",
+    "phonetic": "[wɪð ði help ɒv]",
+    "meaning": "短语：在……的帮助下",
+    "sentenceId": 69
+  },
+  {
+    "id": 728,
+    "word": "without",
+    "phonetic": "[wɪˈðaʊt]",
+    "meaning": "prep. 无，没有",
+    "sentenceId": 9
+  },
+  {
+    "id": 729,
+    "word": "wonder",
+    "phonetic": "[ˈwʌndə(r)]",
+    "meaning": "v. 想知道；疑惑；纳闷；n. 奇迹",
+    "sentenceId": 152
+  },
+  {
+    "id": 730,
+    "word": "wonderful",
+    "phonetic": "[ˈwʌndəfl]",
+    "meaning": "a. 极好的，绝妙的；令人惊叹的",
+    "sentenceId": 40
+  },
+  {
+    "id": 731,
+    "word": "word",
+    "phonetic": "[wɜːd]",
+    "meaning": "n. 单词，词；话语，言语；消息",
+    "sentenceId": 42
+  },
+  {
+    "id": 732,
+    "word": "work",
+    "phonetic": "[wɜːk]",
+    "meaning": "v. 工作，劳动；使工作；n. 工作，职业",
+    "sentenceId": 33
+  },
+  {
+    "id": 733,
+    "word": "work hard",
+    "phonetic": "[wɜːk hɑːd]",
+    "meaning": "短语：努力工作，努力学习",
+    "sentenceId": 50
+  },
+  {
+    "id": 734,
+    "word": "work together",
+    "phonetic": "[wɜːk təˈɡeðə(r)]",
+    "meaning": "短语：一起工作；齐心协力；合作",
+    "sentenceId": 135
+  },
+  {
+    "id": 735,
+    "word": "worry about",
+    "phonetic": "[ˈwʌri əˈbaut]",
+    "meaning": "短语：对....担心",
+    "sentenceId": 10
+  },
+  {
+    "id": 736,
+    "word": "would",
+    "phonetic": "[wʊd]",
+    "meaning": "modal v. 将，会；愿意；过去将",
+    "sentenceId": 72
+  },
+  {
+    "id": 737,
+    "word": "written",
+    "phonetic": "[ˈrɪtn]",
+    "meaning": "v. 写；写作（write的过去分词）",
+    "sentenceId": 154
+  },
+  {
+    "id": 738,
+    "word": "wrong",
+    "phonetic": "[rɒŋ]",
+    "meaning": "a. 错误的；不正当的；adv. 错误地",
+    "sentenceId": 111
+  },
+  {
+    "id": 739,
+    "word": "yesterday",
+    "phonetic": "[ˈjestədeɪ]",
+    "meaning": "ad. 在昨天，昨日；n. 昨天",
+    "sentenceId": 38
+  },
+  {
+    "id": 740,
+    "word": "young",
+    "phonetic": "[jʌŋ]",
+    "meaning": "a. 年轻的，年幼的；青年的；没有经验的",
+    "sentenceId": 45
+  },
+  {
+    "id": 741,
+    "word": "Young Pioneer",
+    "phonetic": "[jʌŋ ˌpaɪəˈnɪə(r)]",
+    "meaning": "短语：少先队员",
+    "sentenceId": 90
+  }
+]
